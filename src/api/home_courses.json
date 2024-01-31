@@ -1,0 +1,66 @@
+[
+
+    {
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+        "title": "How to Learning Basic English Strategy for Research",
+        "category": "Web Dev",
+        "categoryID": 1,
+        "rating": 4.9,
+        "ratingCount": 526,
+        "price": 400,
+        "discountedPrice": 350.00,
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
+        "avatarName": "Roni"
+    },
+
+    {
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "title": "Content is King: Writing Killer Content Web & Marketing",
+        "category": "Art & Design",
+        "categoryID": 4,
+        "rating": 4.5,
+        "ratingCount": 1326,
+        "price": 560,
+        "discountedPrice": 450.00,
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
+        "avatarName": "Jenny"
+    },
+
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+            "title": "The Ultimate Guide to Learning Full Stack Web Design in 6 month.",
+            "category": "Web Dev",
+            "categoryID": 1,
+            "rating": 4.9,
+            "ratingCount": 526,
+            "price": 400,
+            "discountedPrice": 350.00,
+            "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+            "avatarName": "John Doe"
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+            "title": "Management Skills - Team Leadership Skills Masterclass 2024",
+            "category": "Digital marketing",
+            "categoryID": 5,
+            "rating": 4.5,
+            "ratingCount": 526,
+            "price": 90,
+            "discountedPrice": 30,
+            "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+            "avatarName": "Wilsone"
+        },
+
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+            "title": "The Data Science Course 2024: Complete Data Science Bootcamp",
+            "category": "Finance",
+            "categoryID": 6,
+            "rating": 4.9,
+            "ratingCount": 526,
+            "price": 340,
+            "discountedPrice": 260,
+            "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
+            "avatarName": "Theresa"
+        }
+]

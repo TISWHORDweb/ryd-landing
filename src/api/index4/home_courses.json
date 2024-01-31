@@ -1,0 +1,45 @@
+[
+    {
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/home4/1.png",
+        "title": "Introduction to Tech",
+        "category": "digital creativity",
+        "categoryID": 1,
+        "rating": 4.9,
+        "ratingCount": 526,
+        "price": 300,
+        "age": "8-12 Years",
+        "class": 6,
+        "discountedPrice": 250.00,
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
+        "avatarName": "Jhon Doe"
+    },
+    {
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/home4/2.png",
+        "title": "Alphabet Matching Class",
+        "category": "English",
+        "categoryID": 2,
+        "rating": 4.5,
+        "ratingCount": 1326,
+        "price": 180,
+        "age": "4-7 Years",
+        "class": 8,
+        "discountedPrice": 150.00,
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
+        "avatarName": "Jenny"
+    },
+    {
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/home4/3.png",
+        "title": "Management Skills 2024",
+        "category": "Art & Design",
+        "categoryID": 3,
+        "rating": 4.5,
+        "ratingCount": 2326,
+        "price": 224,
+        "age": "7-9 Years",
+        "class": 6,
+        "discountedPrice": 200.00,
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+        "avatarName": "Jerome"
+    }
+    
+]

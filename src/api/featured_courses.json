@@ -1,0 +1,107 @@
+[
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+    "title": "Contrar to popuar belieif loreme Ipsum is an not consectetur cites of the word in...",
+    "category": "Web Development",
+    "categoryID": 1,
+    "rating": 4.9,
+    "ratingCount": 526,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
+    "avatarName": "John Doe",
+    "tagClass":"1"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+    "title": "How to Learning Basic English Strategy for Research",
+    "category": "Engish",
+    "categoryID": 1,
+    "rating": 4.5,
+    "ratingCount": 1326,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
+    "avatarName": "Wilsone",
+    "tagClass":"1"
+
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+    "title": "Content is King: Writing Killer Content Web & Marketing",
+    "category": "Content Writing",
+    "categoryID": 4,
+    "rating": 4.5,
+    "ratingCount": 326,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+    "avatarName": "Theresa",
+    "tagClass":"2"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+    "title": "How to Learning Basic design Strategy for Research.",
+    "category": "Art & Design",
+    "categoryID": 6,
+    "rating": 4.5,
+    "ratingCount": 2326,
+    "price": 100,
+    "discountedPrice": 50,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
+    "avatarName": "Warren",
+    "tagClass":"3"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+    "title": "Contrar to popuar belieif loreme Ipsum is an not consectetur cites of the word in...",
+    "category": "Web Development",
+    "categoryID": 1,
+    "rating": 4.9,
+    "ratingCount": 526,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
+    "avatarName": "John Doe",
+    "tagClass":"1"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+    "title": "How to Learning Basic English Strategy for Research",
+    "category": "English",
+    "categoryID": 1,
+    "rating": 4.5,
+    "ratingCount": 1326,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
+    "avatarName": "Wilsone",
+    "tagClass":"1"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+    "title": "Content is King: Writing Killer Content Web & Marketing",
+    "category": "Content Writing",
+    "categoryID": 4,
+    "rating": 4.5,
+    "ratingCount": 326,
+    "price": 100,
+    "discountedPrice": 50.00,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+    "avatarName": "Theresa",
+    "tagClass":"2"
+  },
+  {
+    "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+    "title": "How to Learning Basic design Strategy for Research.",
+    "category": "Art & Design",
+    "categoryID": 6,
+    "rating": 4.5,
+    "ratingCount": 2326,
+    "price": 100,
+    "discountedPrice": 50,
+    "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
+    "avatarName": "Warren",
+    "tagClass":"3"
+  }
+]

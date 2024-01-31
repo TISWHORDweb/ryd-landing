@@ -1,0 +1,14 @@
+{
+    "categories": [
+        { "category": "Language", "img": "/images/category/home2/1.png"
+        },
+        { "category": "Graphic Design", "img": "/images/category/home2/2.png"
+        },
+        { "category": "Content Writing", "img": "/images/category/home2/3.png"
+        },
+        { "category": "Web Design", "img": "/images/category/home2/4.png"
+        },
+        { "category": "Health & Fitness", "img": "/images/category/home2/5.png"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import "bootstrap";
+
+// 1. Configuration and helpers
+@import 'abstracts/extends',
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins';
+
+// 2. Vendors 
+@import 'vendors/normalize',
+// 'vendors/text-rotator',
+'vendors/nice-select',
+'vendors/rfs';
+
+// 3. Base stuff
+@import 'base/fonts',
+'base/typography',
+'base/animations',
+'base/common',
+'base/helpers';
+
+
+// 4. Layout-related sections
+@import 'layout/header',
+'layout/banner',
+'layout/contact',
+'layout/account',
+'layout/footer';
+
+
+// 5. Components
+@import 'components/button',
+'components/preloader',
+'components/categories',
+'components/about',
+'components/course',
+'components/story',
+'components/team',
+'components/blog',
+'components/community',
+'components/social-link',
+'components/testimonial',
+'components/gallery',
+'components/partner',
+'components/counter',
+'components/feature',
+'components/coursedetails',
+'components/cta',
+'components/faq',
+'components/cart',
+'components/checkout',
+'components/sidebar',
+'components/review',
+'components/newsletter';
+
+// 6. Page-specific styles
+@import 'pages/home';
+
+// 7. Themes
+@import 'themes/theme';
+

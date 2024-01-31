@@ -1,0 +1,238 @@
+{
+    "mentors": [
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Marvin McKi",
+            "role": "Marketer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Arlene McCoy",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "Mike Lye",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Mack Lue",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Bee McCoy",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/2.png",
+            "name": "Robert Fox",
+            "role": "Product Designer"
+        },
+        {
+            
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "McCoy Arlene",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Jerome Bell",
+            "role": "Marketer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/2.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "McCoy Arlene",
+            "role": "President of Sales"
+        },
+        
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/2.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "Jerome Bell",
+            "role": "Marketer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Jerome Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Marvin McKi",
+            "role": "Marketer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Darrell Bell",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Arlene McCoy",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "Mike Lye",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Mack Lue",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Bee McCoy",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/2.png",
+            "name": "Robert Fox",
+            "role": "Product Designer"
+        },
+        {
+            
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "McCoy Arlene",
+            "role": "President of Sales"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Devon Lane",
+            "role": "Graphic Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Jerome Bell",
+            "role": "Web developer"
+        }
+    ],
+    "partnerOne": [
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/1.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/2.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/3.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/4.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/5.png"
+        }
+    ],
+    "partnerTwo": [
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home2/1.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home2/2.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home2/3.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home2/4.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home2/5.png"
+        }
+    ],
+    "partnerThree": [
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home3/1.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home3/2.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home3/3.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home3/4.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/partner/home3/5.png"
+        }
+    ]
+}

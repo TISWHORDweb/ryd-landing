@@ -1,0 +1,38 @@
+[
+    {
+        "thumbnail": "/images/course/home4/1.png",
+        "title": "Introduction to Tech",
+        "description" : "A foundational program introducing young learners to the exciting world of technology. From basic computer navigation to internet safety, this program lays the groundwork for future tech enthusiasts.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "10-17 Years",
+        "class": 8,
+        "duration": 55,
+        "avatar": "/images/avatar/1.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/4.png",
+        "title": "Digital Creativity",
+        "description" : "Unleash your ward's artistic side in the digital realm! This program sparks creativity while developing essential digital skills, from basic graphic design to simple digital presentations and manipulations.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "8-12 Years",
+        "class": 10,
+        "duration": 55,
+        "avatar": "/images/avatar/2.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/2.png",
+        "title": "Web & Digital Communication",
+        "description" : "Delve into the exciting basics of web browsing, blogging, and online communication. An interactive program that teaches internet safety, it's advantages and general exploration using search queries.",
+        "rating": 4.9,
+        "ratingCount": 26,
+        "age": "8-12 Years",
+        "class": 6,
+        "duration": 55,
+        "avatar": "/images/avatar/2.png",
+        "avatarName": " RYD"
+    }
+]

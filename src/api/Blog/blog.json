@@ -1,0 +1,221 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "thumbnail": "/images/blog/1.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 2,
+            "thumbnail": "/images/blog/2.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 3,
+            "thumbnail": "/images/blog/3.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 4,
+            "thumbnail": "/images/blog/4.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 5,
+            "thumbnail": "/images/blog/5.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 6,
+            "thumbnail": "/images/blog/6.png",
+            "tagClass": 1,
+            "category": "Graphic Design",
+            "title": "16 Web & Graphic Design Trends To Watch In 2024",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 7,
+            "thumbnail": "/images/blog/7.png",
+            "tagClass": 1,
+            "category": "Management",
+            "title": "Unintuitive Things I’ve Learned about Management (Part 1)",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 9,
+            "thumbnail": "/images/blog/8.png",
+            "tagClass": 3,
+            "category": "Finance",
+            "title": "Knit Finance Security Audit Report on Smart Contracts.",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 10,
+            "thumbnail": "/images/blog/9.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 11,
+            "thumbnail": "/images/blog/1.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 10,
+            "thumbnail": "/images/blog/2.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 12,
+            "thumbnail": "/images/blog/3.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 13,
+            "thumbnail": "/images/blog/4.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 14,
+            "thumbnail": "/images/blog/5.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 15,
+            "thumbnail": "/images/blog/6.png",
+            "tagClass": 1,
+            "category": "Graphic Design",
+            "title": "16 Web & Graphic Design Trends To Watch In 2024",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 16,
+            "thumbnail": "/images/blog/7.png",
+            "tagClass": 1,
+            "category": "Management",
+            "title": "Unintuitive Things I’ve Learned about Management (Part 1)",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 17,
+            "thumbnail": "/images/blog/8.png",
+            "tagClass": 3,
+            "category": "Finance",
+            "title": "Knit Finance Security Audit Report on Smart Contracts.",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 18,
+            "thumbnail": "/images/blog/9.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 19,
+            "thumbnail": "/images/blog/1.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 20,
+            "thumbnail": "/images/blog/2.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 21,
+            "thumbnail": "/images/blog/3.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 22,
+            "thumbnail": "/images/blog/4.png",
+            "tagClass": 3,
+            "category": "Art & Design",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 23,
+            "thumbnail": "/images/blog/5.png",
+            "tagClass": 2,
+            "category": "Business",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 24,
+            "thumbnail": "/images/blog/6.png",
+            "tagClass": 1,
+            "category": "Graphic Design",
+            "title": "16 Web & Graphic Design Trends To Watch In 2024",
+            "date": " 21 April 2024"
+        },
+        {
+            "id": 25,
+            "thumbnail": "/images/blog/7.png",
+            "tagClass": 1,
+            "category": "Management",
+            "title": "Unintuitive Things I’ve Learned about Management (Part 1)",
+            "date": " 30 January 2024"
+        },
+        {
+            "id": 26,
+            "thumbnail": "/images/blog/8.png",
+            "tagClass": 3,
+            "category": "Finance",
+            "title": "Knit Finance Security Audit Report on Smart Contracts.",
+            "date": " 13 March 2024"
+        },
+        {
+            "id": 27,
+            "thumbnail": "/images/blog/9.png",
+            "tagClass": 1,
+            "category": "Development",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "date": " 21 April 2024"
+        }
+        
+    ]
+}

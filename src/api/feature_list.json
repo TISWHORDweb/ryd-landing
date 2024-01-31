@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://thetork.com/demos/vue/educax/images/about/home1/3.png",
+        "title": "Discover From Anywhere",
+        "subtitle": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below."
+    },
+    {
+        "image": "https://thetork.com/demos/vue/educax/images/about/home1/4.png",
+        "title": "Our Expert Creator",
+        "subtitle": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below."
+    },
+    {
+        "image": "https://thetork.com/demos/vue/educax/images/about/home1/5.png",
+        "title": "24/7 Live Support",
+        "subtitle": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below."
+    }
+]
