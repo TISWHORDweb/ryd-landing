@@ -26,7 +26,7 @@ const Details = ({ props }) => {
   };
 
 
-  const bgColor = props.category.toLowerCase() === "basic" ? "#FFE3EC" : "#EBFEEA";
+  const bgColor = props.category?.toLowerCase() === "basic" ? "#FFE3EC" : "#EBFEEA";
 
   const style = { backgroundColor: bgColor, width: 'fit-content', padding: '5px 15px', borderRadius: '12px', marginBottom: '30px', fontSize: '14px', color: 'black' }
 
