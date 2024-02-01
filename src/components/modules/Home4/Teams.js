@@ -45,7 +45,9 @@ const Teams = () => {
 
     const backgroundImage = {
         backgroundImage: "url('/images/bg/home4/2.png')",
-        marginBottom: '100px'
+        marginBottom: '-50px',
+        position: 'relative',
+        zIndex: 700,
     };
     const breakpoints = {
         576: {
