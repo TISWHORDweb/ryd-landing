@@ -38,7 +38,7 @@ const Footerfour = () => {
                             <img src="/images/footer/1.svg" alt="icon" />
                             <div className="info">
                               <p className="m-0">
-                                4517 Washington Ave. Manchester, Kentucky 39495
+                              Durham, Greater Toronto Area, Ontario, Canada
                               </p>
                             </div>
                           </div>
@@ -47,13 +47,12 @@ const Footerfour = () => {
                           <div className="footer__about-inner">
                             <img src="/images/footer/2.svg" alt="icon" />
                             <div className="info">
-                              {" "}
                               <Link href="mailto:support@thetork.com">
-                                support@thetork.com
+                              support@rydlearning.com
                               </Link>
                               <br />
                               <Link href="mailto:mail@thetork.com">
-                                mail@thetork.com
+                              info@rydlearning.com
                               </Link>
                             </div>
                           </div>
@@ -63,14 +62,14 @@ const Footerfour = () => {
                           <div className="footer__about-inner">
                             <img src="/images/footer/3.svg" alt="icon" />
                             <div className="info">
-                              {" "}
-                              <Link href="tel:+2075550119">(207) 555-0119</Link>
+                              <Link href="tel:+2075550119">+1 (647) 450-5800</Link>
                               <br />
-                              <Link href="tel:+7025550122">(702) 555-0122</Link>
+                              {/* <Link href="tel:+7025550122">(702) 555-0122</Link> */}
                             </div>
                           </div>
                         </li>
                       </ul>
+
                     </div>
                   </div>
                 </div>

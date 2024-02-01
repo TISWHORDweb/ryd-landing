@@ -18,7 +18,7 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Location</h5>
-                            <p className="mb-0">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                            <p className="mb-0">Durham, Greater Toronto Area, Ontario, Canada.</p>
                         </div>
                     </div>
                     <div className="contact__item">
@@ -27,8 +27,8 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Contact</h5>
-                            <p className="mb-0">(405) 555-0128</p>
-                            <p className="mb-0">(603) 555-0123</p>
+                            <p className="mb-0">+1 (647) 450-5800</p>
+                            {/* <p className="mb-0">(603) 555-0123</p> */}
                         </div>
                     </div>
                     <div className="contact__item">
@@ -37,7 +37,8 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Email</h5>
-                            <p className="mb-0">support@thetork.com</p>
+                            <p className="mb-1">support@rydlearning.com</p>
+                            <p className="mb-0">info@rydlearning.com</p>
                         </div>
                     </div>
                     <div className="contact__item">
