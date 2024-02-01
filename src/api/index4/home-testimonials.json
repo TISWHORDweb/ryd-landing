@@ -4,7 +4,7 @@
         "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png",
         "role": "Parent",
         "rating": 4,
-        "quote": "I couldn't be happier with Ryd learning platform. It's been a game-changer for my child's education. The engaging content and interactive lessons have not only made learning fun but have also improved my child's understanding of digital expressions.",
+        "quote": "Technology opens up a world of possibilities for interactive and engaging learning experiences and digital resources provide children with fun ways to explore and learn.",
         "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png"
     },
     {
@@ -12,7 +12,7 @@
         "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
         "role": "Parent",
         "rating": 2,
-        "quote": "The platform's user-friendly interface and real-time progress tracking provide me with peace of mind, knowing my child is getting a quality education from the comfort of our home.",
+        "quote": "Technology plays a significant part of our lives-and it will only become more prevalent as time goes on. The right amount of tech can positively affect a child's develoment, providing children with wealth of information and opportunities that were not available in times past.",
         "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png"
     },
     {
@@ -20,7 +20,7 @@
         "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
         "role": "Student",
         "rating": 1,
-        "quote": "RYD learning has made my high school experience so much better. The platform's diverse range of courses allows me to explore my interests beyond the standard curriculum",
+        "quote": "In today's increasingly digital world, children need to learn how to use tech, by understanding this, children will be better prepared for the future.",
         "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png"
     },
     {
@@ -28,7 +28,7 @@
         "role": "Student",
         "rating": 5,
         "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
-        "quote": "The interactive quizzes and discussions make studying enjoyable, and the flexibility of the platform fits perfectly with my busy schedule. I feel more in control of my learning journey, and the platform has equipped me with valuable skills for both academics and beyond.",
+        "quote": "Children can use technology to express their creative side. This self expression can help children develop a stronger sense of identity and can also help boost their confidence and self-esteem.",
         "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png"
     },
     {
@@ -36,7 +36,23 @@
         "role": "Educator",
         "rating": 2,
         "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
-        "quote": "The platform's collaboration features enable seamless interaction, fostering a sense of community in the virtual classroom. The detailed analytics and student feedback help me tailor my teaching methods, ensuring that every student gets the support they need to succeed.",
+        "quote": "With technology, children can learn how to solve problems in new and innovative ways, teching them to think outside the box-animportant skill in today's ever-changing world.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png"
+    },
+    {
+        "name": "Dr. Patel",
+        "role": "Educator",
+        "rating": 2,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
+        "quote": "It is essential that children acquire the knowledge, skills and attitudes needed to keep them safe and empowered in an increasingly digital world.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png"
+    },
+    {
+        "name": "Dr. Patel",
+        "role": "Educator",
+        "rating": 2,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
+        "quote": "With technology, children can easily communicate with others, stay in touch with friends and family living far away and in doing so help children develop critical social skills",
         "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png"
     }
 ]

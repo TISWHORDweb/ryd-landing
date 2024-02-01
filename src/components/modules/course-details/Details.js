@@ -14,7 +14,8 @@ import {
 } from "react-icons/fa";
 
 import { BsCheckCircle } from "react-icons/bs";
-const Details = () => {
+
+const Details = ({ props }) => {
   const [toggler, setToggler] = useState(false);
   const [toggle, setToggle] = useState(1);
 
@@ -23,6 +24,11 @@ const Details = () => {
       setToggle(index);
     }
   };
+
+
+  const bgColor = props.category.toLowerCase() === "basic" ? "#FFE3EC" : "#EBFEEA";
+
+  const style = { backgroundColor: bgColor, width: 'fit-content', padding: '5px 15px', borderRadius: '12px', marginBottom: '30px', fontSize: '14px', color: 'black' }
 
   return (
     <>
@@ -34,32 +40,27 @@ const Details = () => {
             <div className="col-lg-4">
               <div className="coursedetails__package">
                 <div className="coursedetails__thumb">
-                  <img src="/images/course/home1/1.png" alt="packgae-image" />
+                  <img src={props.thumbnail} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
-                    <Link href="" onClick={(e) => {
-                      setToggler(!toggler)
-                      e.preventDefault()
-
-                    }}>
-                      <img src="/images/course/home1/2.png" alt="play-btn" />
+                    <Link href="/signin"
+                    //  onClick={(e) => {
+                    //   setToggler(!toggler)
+                    //   e.preventDefault()}}
+                    >
+                      <img src={"/images/course/home1/2.png"} alt="play-btn" />
                     </Link>
                   </div>
                 </div>
                 <div className="coursedetails__offer">
-                  <div className="coursedetails__offer-price">
-                    <h3>$10.00</h3> <span>$80 80% off</span>
-                  </div>
-                  <div className="coursedetails__offer-time">
-                    <p>
-                      <FaRegClock /> <span>5 days</span> left at this price!
-                    </p>
+                  <div className="" style={style}>
+                    <span>{props.category}</span>
                   </div>
 
                   <Link
                     href="/signin"
                     className="trk-btn trk-btn--border trk-btn--secondary1 d-block"
                   >
-                    Buy Now
+                    Get Started
                   </Link>
 
                   <div className="coursedetails__offer-social">
@@ -91,22 +92,20 @@ const Details = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="coursedetails__footer">
+                {/* <div className="coursedetails__footer">
                   <p>For details the course</p>
                   <Link href="tel:16910">
                     <FaPhoneAlt /> Call (16910)
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
+
+
             <div className="col-lg-8">
               <div className="coursedetails__content">
                 <div className="coursedetails__header">
-                  <h3>The Complete 2024 Web Development Bootcamp</h3>
-                  <p>
-                    Become a Full-Stack Web Developer with just ONE Course.
-                    HTML,CSS,Javascript, Node,React, MongoBD, Web3 and DApps
-                  </p>
+                  <h3>{props?.title}</h3>
                   <div className="coursedetails__focus">
                     <div className="coursedetails__focus-rating">
                       <span>4.5</span>
@@ -130,12 +129,12 @@ const Details = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="coursedetails__focus-count">
+                    {/* <div className="coursedetails__focus-count">
                       <span>(237,732 ratings)</span>
                     </div>
                     <div className="coursedetails__focus-students">
                       <span>10+ Student</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -176,7 +175,7 @@ const Details = () => {
                         <FaFile /> Curriculum
                       </button>
                     </li>
-                    <li
+                    {/* <li
                       className={toggle === 3 ? "nav-item active" : "nav-item"}
                       role="presentation"
                     >
@@ -227,7 +226,7 @@ const Details = () => {
                         <FaPhoneAlt />
                         Help
                       </button>
-                    </li>
+                    </li> */}
                   </ul>
 
                   <div className="tab-content" id="pills-tabContent">
@@ -244,65 +243,38 @@ const Details = () => {
                       tabIndex="0"
                     >
                       <div className="coursedetails__overview">
-                        <h5>Study Plan</h5>
+                        <h5>Course Summary</h5>
                         <p>
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration in
-                          some form, by injected humor, or randomized words which
-                          don't look even slightly believable. If you are going to
-                          use a passage of Lorem Ipsum, you need to be sure there
-                          isn't anything embarrassing hidden in the middle of text.
-                          All the Lorem Ipsum generators on the Internet tend to
-                          repeat predefined chunks as necessary, making this the
-                          first true generator on the Internet. It uses a dictionary
-                          of over 200 Latin words, combined with a handful of model
-                          sentence structures, to generate
+                          {props?.summary}
                         </p>
+
                         <h5>What will you learn from this course?</h5>
                         <ul className="overview-list">
-                          <li>
-                            <BsCheckCircle /> Basic knowledge and detailed
-                            understanding of CSS3 to create attract websites
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Details Idea about HTML5, Creating
-                            Basic Web Pages using HTML5
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Web Page Layout Design and Slider
-                            Creation
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Image Insert method of web site
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Creating Styling Web Pages Using CSS3
-                          </li>
-                          <li>
-                            <BsCheckCircle /> How to Convert UI / UX to HTML
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Detailed ideas about structured
-                            project creation
-                          </li>
-                          <li>
-                            <BsCheckCircle /> Steps to Start Freelancing by Learning
-                            Web Design
-                          </li>
+                          {props?.curriculum?.map((item, index) => (
+                            <li key={index}>
+                              <BsCheckCircle /> {item}
+                            </li>
+                          ))}
                         </ul>
-                        <h5>Details about the course</h5>
-                        <p className="mb-3">
-                          Being able to speak English fluently is an important skill
-                          in this age. Having spoken English skills can help you
-                          advance in every stage of life. Acquiring English speaking
-                          skills or correct pronunciation of English is very
-                          important.{" "}
-                        </p>
-                        <p>
-                          There are many people who know English well, but feel
-                          reluctant to speak English due to lack of confidence. Ten
-                          Minute School brings you the 'Spoken English.
-                        </p>
+                          
+                        { props.language &&
+                          <>
+                            <h5>Programming Language</h5>
+                            <p className="mb-2">{props.language}</p>
+                          </>
+                        }
+
+                        { props.tools &&
+                          <>
+                            <h5>Tools Required</h5>
+                            <p className="mb-2">{props.tools}</p>
+                          </>
+                        }
+                        
+                        
+
+                        <h5>Course Project</h5>
+                        <p className="mb-2">{props.project}</p>
                       </div>
                     </div>
 
@@ -321,45 +293,14 @@ const Details = () => {
                         <div className="coursedetails__overview">
                           <h5>What will you learn from this course?</h5>
                           <ul className="overview-list">
-                            <li>
-                              <BsCheckCircle />
-                              Basic knowledge and detailed understanding of CSS3 to
-                              create attract websites
-                            </li>
-                            <li>
-                              <BsCheckCircle />
-                              Details Idea about HTML5, Creating Basic Web Pages
-                              using HTML5
-                            </li>
-                            <li>
-                              <BsCheckCircle /> Web Page Layout Design and Slider
-                              Creation
-                            </li>
-                            <li>
-                              <BsCheckCircle /> Image Insert method of web site
-                            </li>
-                            <li>
-                              <BsCheckCircle /> Creating Styling Web Pages Using
-                              CSS3
-                            </li>
-                            <li>
-                              <BsCheckCircle /> How to Convert UI / UX to HTML
-                            </li>
-                            <li>
-                              <BsCheckCircle /> Detailed ideas about structured
-                              project creation
-                            </li>
-                            <li>
-                              <BsCheckCircle /> Steps to Start Freelancing by
-                              Learning Web Design
-                            </li>
+                            {props?.curriculum?.map((item, index) => (
+                              <li key={index}>
+                                <BsCheckCircle /> {item}
+                              </li>
+                            ))}
                           </ul>
-                          <h5>Details about the course</h5>
-                          <p>
-                            There are many people who know English well, but feel
-                            reluctant to speak English due to lack of confidence.
-                            Ten Minute School brings you the 'Spoken English.
-                          </p>
+                          <h5>Course Project</h5>
+                          <p className="mb-2">{props.project}</p>
                         </div>
                       </div>
                     </div>

@@ -30,8 +30,8 @@ const Testimonials = () => {
     <section className='testimonial testimonial--style1 padding-top padding-bottom brand-4'>
       <div className='container'>
         <div className="section-header text-center section-header--dark">
-          <h2 className='style2-h2'>Our Success Story</h2>
-          <p className="style2">Check out what the parents and guardians of our students have to say about us. Some of our students have also expressed their immense joy and fulfilment in passing through our program.</p>
+          <h2 className='style2-h2'>Why Tech & Why Kids?</h2>
+          {/* <p className="style2">Check out what the parents and guardians of our students have to say about us. Some of our students have also expressed their immense joy and fulfilment in passing through our program.</p> */}
         </div>
         <div className="testimonial__wrapper">
         <Swiper
@@ -62,10 +62,10 @@ const Testimonials = () => {
                       <blockquote className="blockquote">
                         <p>{item.quote}</p>
                       </blockquote>
-                      <div className="testimonial__item-author">
+                      {/* <div className="testimonial__item-author">
                         <p>{item.name}</p>
                         <span>{item.role}</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

@@ -103,5 +103,7 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    /* color: rgba(240, 240, 240, 0.681); */
   }
+
 }

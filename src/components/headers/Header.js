@@ -93,27 +93,27 @@ const Header = () => {
                   <li>
                     <Link href="/about">About Us</Link>
                   </li>
-                  <li className="menu-item-has-children">
-                    <Link href="" onClick={toggleActive}>
+                  <li className="">
+                    <Link href="/courses">
                       Courses
                     </Link>
-                    <ul className="submenu">
+                    {/* <ul className="submenu">
                       <li>
                         <Link href="/courses">Courses</Link>
                       </li>
-                      <li>
+                       <li>
                         <Link href="/course-details">Courses Details</Link>
                       </li>
-                      <li>
+                       <li>
                         <Link href="/course-category">Courses Category</Link>
                       </li>
-                      {/* <li>
+                       <li>
                         <Link href="/mentors">Mentors</Link>
                       </li>
                       <li>
                         <Link href="/mentor-details">Mentor Details</Link>
-                      </li> */}
-                    </ul>
+                      </li> 
+                    </ul> */}
                   </li>
                   {/* <li className="menu-item-has-children">
                     <Link href="" onClick={toggleActive}>

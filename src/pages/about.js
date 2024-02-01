@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </section> */}
       {/* <PopularCourse title="Our Popular Courses" /> */}
-      <MeetOurExpert additionalClass="padding-top" />
+      {/* <MeetOurExpert additionalClass="padding-top" /> */}
       {/* <Testimonials /> */}
       <Newsletter additionalClass="padding-top" title="Our mission is to transform learning into an exhilarating journey of discovery." />
       <Footer />

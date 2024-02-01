@@ -102,20 +102,20 @@ return (
                   <Link href="/about">About Us</Link>
                 </li>
 
-                <li className='menu-item-has-children'>
-                  <Link href="" onClick={toggleActive}>Courses</Link>
-                  <ul className="submenu">
+                <li className=''>
+                  <Link href="/courses">Courses</Link>
+                  {/* <ul className="submenu">
                     <li>
                       <Link href="/courses">Courses</Link>
                     </li>
-                    <li>
+                     <li>
                       <Link href="/course-details">Courses Details</Link>
-                    </li>
-                    <li>
+                    </li> 
+                     <li>
                       <Link href="/course-category"
                       >Courses Category</Link>
-                    </li>
-                  </ul>
+                    </li> 
+                  </ul> */}
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>

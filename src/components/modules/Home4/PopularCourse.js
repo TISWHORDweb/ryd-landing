@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
+import React from 'react';
 const PopularCourse = () => {
   const backgroundImage = {
     backgroundImage: "url(/images/bg/home4/1.png)",
@@ -56,36 +57,47 @@ const PopularCourse = () => {
             }}
           >
             {
-              coursedata.map((item, index) => (
-                <SwiperSlide key={index}>
-                  <div className='course__item'>
-                    <div className='course__item-inner'>
-                      <div className='course__thumb'>
-                        <img src={item.thumbnail} alt="course Images" />
-                      </div>
-                    </div>
-                    <div className="course__content">
-                      <div className="course__content-top">
-                        <div className="course__author">
-                          <Link href="mentor-details"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
-                        </div>
-                        <div className="course__focus-inner">
-                          <span>{item.rating}</span>
-                          <img src="/images/course/star.png" alt="review-star" />
-                          <span>{`(${item.ratingCount})`}</span>
+              coursedata.map((item, index) => {
+                const lines = item.description.split('\n');
+                return (
+                  <SwiperSlide key={index}>
+                    <div className='course__item'>
+                      <div className='course__item-inner'>
+                        <div className='course__thumb'>
+                          <img src={item.thumbnail} alt="course Images" />
                         </div>
                       </div>
-                      <h5> <Link href="course-details">{item.title}</Link> </h5>
-                      <p>{item.description}</p>
-                      <div className="course__content-footer">
-                        <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
-                        <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} mins`}</span>
-                        <span><img src="/images/course/home4/3.svg" alt="icon" /> <Link href="">{`${item.class} class`}</Link></span>
+                      <div className="course__content">
+                        <div className="course__content-top">
+                          <div className="course__author">
+                            <Link href="mentor-details"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
+                          </div>
+                          <div className="course__focus-inner">
+                            <span>{item.rating}</span>
+                            <img src="/images/course/star.png" alt="review-star" />
+                            <span>{`(${item.ratingCount})`}</span>
+                          </div>
+                        </div>
+                        <h5> <Link href="course-details">{item.title}</Link> </h5>
+                        <p>
+                            {lines.map((line, index) => (
+                                // Add a <br /> after each line except the last one
+                                <React.Fragment key={index}>
+                                * {line}
+                                {index !== lines.length - 1 && <br />}
+                                </React.Fragment>
+                            ))}
+                        </p>
+                        <div className="course__content-footer">
+                          <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
+                          <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} mins`}</span>
+                          <span><img src="/images/course/home4/3.svg" alt="icon" /> <Link href="">{`${item.class} class`}</Link></span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-              ))
+                  </SwiperSlide>
+                )
+              })
             }
             <div className="slider__pagination-2"></div>
           </Swiper>

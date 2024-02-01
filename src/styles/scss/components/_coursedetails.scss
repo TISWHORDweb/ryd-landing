@@ -77,7 +77,8 @@
                 @include breakpoint(sm) {
                     .nav {
                         position: relative;
-                        justify-content: space-between;
+                        // justify-content: space-between;
+                        column-gap: 100px;
 
                         &:after {
                             position: absolute;

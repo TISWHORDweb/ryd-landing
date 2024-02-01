@@ -32,7 +32,7 @@ const Courses = () => {
         return null
       }
     };
-
+    setSelectedCategory('all');
     fetchData();
   }, []);
 
@@ -47,7 +47,17 @@ const Courses = () => {
       (course) => course.categoryID === selectedCategory,
     );
     setFilteredCourses(filtered);
+
+    if(selectedCategory === 'all'){
+      setFilteredCourses(CoursesData);
+    }
+
   }, [courses, selectedCategory]);
+
+  const handleAllBtnClick = () => {
+    setFilteredCourses(CoursesData);
+    setSelectedCategory('all')
+  }
 
   return (
     <div>
@@ -69,10 +79,8 @@ const Courses = () => {
             >
               <select name="cars" className="form-select">
                 <option value="">Filter By</option>
-                <option value="content">UI/UX</option>
-                <option value="web">Web Design</option>
-                <option value="graphic">Graphic</option>
-                <option value="seo">Social</option>
+                <option value="advanced">Advanced</option>
+                <option value="basic">Basic</option>
               </select>
             </div>
             <div
@@ -81,7 +89,15 @@ const Courses = () => {
               data-aos-duration="800"
             >
               <ul className="nav nav-pills" id="pills-tab" role="tablist">
-                {categoryList.slice(0, 6).map((item, idx) => (
+                <li className="nav-item">
+                  <button 
+                    className={`tab-btn ${selectedCategory === 'all' ? "active" : ""}`}
+                    onClick={handleAllBtnClick}
+                  >
+                    All
+                  </button>
+                </li>
+                {categoryList.slice(0, 2).map((item, idx) => (
                   <li key={idx} className="nav-item">
                     <button
                       className={`tab-btn ${selectedCategory === item.categoryID ? "active" : ""
@@ -111,7 +127,7 @@ const Courses = () => {
                 tabIndex="0"
               >
                 <div className="row g-4">
-                  {filteredCourses.slice(0, 9).map((item, index) => (
+                  {filteredCourses.map((item, index) => (
                     <div key={index} className="col-lg-4 col-md-6">
                       <CourseCard courseDetails={item} />
                     </div>
