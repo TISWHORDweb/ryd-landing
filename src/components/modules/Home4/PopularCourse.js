@@ -90,8 +90,8 @@ const PopularCourse = () => {
                         </p>
                         <div className="course__content-footer">
                           <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
-                          <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} mins`}</span>
-                          <span><img src="/images/course/home4/3.svg" alt="icon" /> <Link href="">{`${item.class} class`}</Link></span>
+                          <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} weeks`}</span>
+                          <span><img src="/images/course/home4/3.svg" alt="icon" /> <Link href="">{`${item.class} classes`}</Link></span>
                         </div>
                       </div>
                     </div>

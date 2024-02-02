@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+        "thumbnail": "images/course/home4/1.png",
         "title": "Introduction to Tech Essentials",
         "category": "Basic",
         "categoryID": 1,
@@ -19,7 +19,7 @@
     },
     {
         "id":2,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/2.png",
         "title": "Navigating the Digital World",
         "category": "Basic",
         "categoryID": 1,
@@ -37,7 +37,7 @@
     },
     {
         "id":3,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/4.png",
         "title": "Safety in the Online Space",
         "category": "Basic",
         "categoryID": 1,
@@ -55,7 +55,7 @@
     },
     {
         "id":4,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+        "thumbnail": "images/course/home4/9.jpg",
         "title": "Fundamental Keyboarding and Mouse Skills",
         "category": "Basic",
         "categoryID": 1,
@@ -63,7 +63,7 @@
         "ratingCount": 526,
         "price": 340,
         "discountedPrice": 260,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+        "avatar": "images/home4/avatar/3.png",
         "avatarName": "Theresa",
         "curriculum": ["Developing essential keyboarding and mouse proficiency.", "Practice basic typing skills."],
         "language": "Scratch",
@@ -73,7 +73,7 @@
     },
     {
         "id":5,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+        "thumbnail": "images/course/home4/3.jpg",
         "title": "Fun with Tech Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -81,7 +81,7 @@
         "ratingCount": 1326,
         "price": 560,
         "discountedPrice": 450.00,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
+        "avatar": "images/home4/avatar/2.png",
         "avatarName": "Wilsone",
         "curriculum": ["Engaging in educational games promoting learning.", "Exploring interactive and educational content."],
         "language": "Scratch",
@@ -91,7 +91,7 @@
     },
     {
         "id":6,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/6.png",
+        "thumbnail": "images/course/home4/10.jpg",
         "title": "Digital Creativity Unleashed",
         "category": "Basic",
         "categoryID": 1,
@@ -99,7 +99,7 @@
         "ratingCount": 526,
         "price": 340,
         "discountedPrice": 260,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
+        "avatar": "images/home4/avatar/1.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Introduction to digital art concepts and techniques.", "Experimenting with various digital art tools."],
         "language": "Scratch",
@@ -109,7 +109,7 @@
     },
     {
         "id":7,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/7.png",
+        "thumbnail": "images/course/home4/4.png",
         "title": "Exploring Graphic Design Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -127,7 +127,7 @@
     },
     {
         "id":8,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/8.png",
+        "thumbnail": "images/course/home4/1.png",
         "title": "Crafting Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -147,7 +147,7 @@
 
     {
         "id":9,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/9.png",
+        "thumbnail": "images/course/home4/7.jpg",
         "title": "Overview of Computer Hardware and Software",
         "category": "Advanced",
         "categoryID": 2,
@@ -165,7 +165,7 @@
     },
     {
         "id":10,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/9.jpg",
         "title": "Introduction to Programming Logic",
         "category": "Advanced",
         "categoryID": 2,
@@ -183,7 +183,7 @@
     },
     {
         "id":11,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/8.jpg",
         "title": "Basics of Web Development",
         "category": "Advanced",
         "categoryID": 2,
@@ -201,7 +201,7 @@
     },
     {
         "id":12,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+        "thumbnail": "images/course/home4/5.jpg",
         "title": "Introduction to Robotics",
         "category": "Advanced",
         "categoryID": 2,
@@ -219,7 +219,7 @@
     },
     {
         "id":13,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+        "thumbnail": "images/course/home4/7.jpg",
         "title": "Collaborative Coding Projects",
         "category": "Advanced",
         "categoryID": 2,
@@ -237,7 +237,7 @@
     },
     {
         "id":14,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/6.png",
+        "thumbnail": "images/course/home4/5.jpg",
         "title": "Project Management Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -255,7 +255,7 @@
     },
     {
         "id":15,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/7.png",
+        "thumbnail": "images/course/home4/6.jpg",
         "title": "Introduction to Design Thinking",
         "category": "Advanced",
         "categoryID": 2,
@@ -273,7 +273,7 @@
     }, 
     {
         "id":15.5,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/7.png",
+        "thumbnail": "images/course/home4/13.jpg",
         "title": "Team-Based Technology Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -293,7 +293,7 @@
 
     {
         "id":16,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/8.png",
+        "thumbnail": "images/course/home4/2.png",
         "title": "Introduction to Digital Art",
         "category": "Basic",
         "categoryID": 1,
@@ -311,7 +311,7 @@
     },
     {
         "id":17,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/9.png",
+        "thumbnail": "images/course/home4/8.jpg",
         "title": "Basic Graphic Design Skills",
         "category": "Basic",
         "categoryID": 1,
@@ -329,7 +329,7 @@
     },
     {
         "id":18,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+        "thumbnail": "images/course/home4/11.jpg",
         "title": "Creating Simple Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -347,7 +347,7 @@
     },
     {
         "id":19,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+        "thumbnail": "images/course/home4/3.jpg",
         "title": "Introduction to Coding Concepts through Visual Programming",
         "category": "Basic",
         "categoryID": 1,
@@ -365,7 +365,7 @@
     },
     {
         "id":20,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+        "thumbnail": "images/course/home4/10.jpg",
         "title": "Collaborative Projects",
         "category": "Basic",
         "categoryID": 1,
@@ -383,7 +383,7 @@
     },
     {
         "id":21,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+        "thumbnail": "images/course/home4/8.jpg",
         "title": "Digital Art Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -401,7 +401,7 @@
     },
     {
         "id":22,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/6.png",
+        "thumbnail": "images/course/home4/9.jpg",
         "title": "Multimedia Production Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -419,7 +419,7 @@
     },
     {
         "id":23,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/7.png",
+        "thumbnail": "images/course/home4/4.png",
         "title": "Interactive Multimedia Projects",
         "category": "Basic",
         "categoryID": 1,
@@ -590,7 +590,7 @@
 
     {
         "id":32,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/8.png",
+        "thumbnail": "images/course/home4/2.png",
         "title": "Basics of Web Browsing",
         "category": "Basic",
         "categoryID": 1,
@@ -608,7 +608,7 @@
     },
     {
         "id":33,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/9.png",
+        "thumbnail": "images/course/home4/1.png",
         "title": "Online Communication and Safety",
         "category": "Basic",
         "categoryID": 1,
@@ -738,8 +738,6 @@
 
 
 
-
-
     {
         "id":41,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
@@ -751,7 +749,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Learning the basics of app design principles.", "Developing skills in designing user-friendly interfaces."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is crafted to introduce participants to the fundamental principles and practices of designing user-friendly and visually appealing mobile applications. Tailored for beginners, this course covers key aspects of app design, including user interface (UI) design, user experience (UX) principles, wireframing, visual design, and basic usability considerations.",
+        "project": "Design a basic app interface."
     },
     {
         "id":42,
@@ -764,7 +767,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to app prototyping tools.", "Creating a simple prototype for a mobile app."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed to guide participants through the process of creating basic prototypes for mobile applications. Tailored for beginners, this course covers essential prototyping tools, techniques, and principles, allowing participants to translate their app design ideas into interactive and tangible prototypes.",
+        "project": "Develop a basic app prototype."
     },
     {
         "id":43,
@@ -777,7 +785,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Exploring different mobile platforms.", "Understanding the differences and similarities."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed to provide participants with a comprehensive understanding of mobile platforms, including iOS and Android. Tailored for beginners, this course covers the basics of mobile operating systems, app distribution, development environments, and key considerations when building applications for iOS and Android platforms.",
+        "project": "Research and present on a specific mobile platform."
     },
     {
         "id":44,
@@ -790,7 +803,12 @@
         "price": 400,
         "discountedPrice": 350.00,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
-        "avatarName": "Jhon Doe"
+        "avatarName": "Jhon Doe",
+        "curriculum": ["Engaging in collaborative app development.", "Working on team-based app projects."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed to simulate a real-world collaborative environment for mobile app development. Tailored for participants with a foundation in app development, this course focuses on teamwork, project management, and practical application of advanced concepts in building a feature-rich mobile application. Participants will engage in hands-on collaboration, code integration, testing, and project delivery.",
+        "project": "Develop a collaborative mobile app."
     },
     {
         "id":45,
@@ -803,33 +821,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
-    },
-    {
-        "id":46,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
-        "title": "Collaborative App Development Project",
-        "category": "Advanced",
-        "categoryID": 2,
-        "rating": 4.9,
-        "ratingCount": 526,
-        "price": 400,
-        "discountedPrice": 350.00,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
-        "avatarName": "Jhon Doe"
-    },
-    {
-        "id":47,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
-        "title": "Mobile App Development Challenges",
-        "category": "Advanced",
-        "categoryID": 2,
-        "rating": 4.9,
-        "ratingCount": 526,
-        "price": 340,
-        "discountedPrice": 260,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Exploring challenges in mobile app development.", "Problem-solving in the app development process."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed to prepare participants for the complexities and hurdles encountered in the mobile app development landscape. Tailored for developers and project managers, this course covers common challenges such as platform fragmentation, security concerns, performance optimization, and user experience issues. Participants will gain insights into strategies for overcoming these challenges and delivering successful mobile applications.",
+        "project": "Address a specific challenge in app development."
     },
     {
         "id":48,
@@ -842,7 +839,12 @@
         "price": 400,
         "discountedPrice": 350.00,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
-        "avatarName": "Jhon Doe"
+        "avatarName": "Jhon Doe",
+        "curriculum": ["Advancing skills in app prototyping.", "Creating more complex prototypes for mobile apps."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for participants who want to elevate their app prototyping skills to a more sophisticated level. Tailored for individuals with a basic understanding of app design and prototyping, this course covers advanced techniques, animations, and interactions to create highly realistic and interactive prototypes. Participants will explore prototyping tools, user testing, and seamless collaboration in a team environment.",
+        "project": "Develop an advanced app prototype."
     },
     {
         "id":49,
@@ -855,8 +857,14 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Exploring ethical considerations in tech.", "Discussing the impact of technology on society."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed to explore the ethical challenges and responsibilities associated with the development and deployment of technology. This course is relevant for individuals in technology-related fields, including developers, engineers, designers, and decision-makers. Participants will delve into key ethical principles, emerging technologies, and case studies to understand how ethical considerations shape the technology landscape.",
+        "project": "Present an ethical tech impact project."
     },
+
     {
         "id":50,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
@@ -868,8 +876,14 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to audio and video editing concepts.", "Understanding basic tools for audio and video editing."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Create a simple edited audio recording."
     },
+    
     {
         "id":51,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
@@ -881,8 +895,14 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Basics of podcast creation and video production.", "Recording and editing a simple podcast and video."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for beginners seeking to enter the world of content creation through podcasts and videos. This course covers the fundamental steps of planning, recording, editing, and publishing engaging audio and video content. Participants will gain hands-on experience using accessible tools to produce quality content, making this course ideal for those new to the field.",
+        "project": "Develop a basic podcast and video."
     },
+
     {
         "id":52,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
@@ -894,7 +914,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Exploring basic animation concepts.", "Understanding animation tools and techniques."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals eager to explore the captivating world of animation. Tailored for beginners, this course provides an overview of animation principles, techniques, and tools. Participants will gain hands-on experience creating basic animations and understanding the foundations necessary for more advanced animation projects.",
+        "project": "Create a simple animated project."
     },
     {
         "id":53,
@@ -907,12 +932,17 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Engaging in collaborative multimedia projects.", "Working on team-based multimedia endeavours."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals interested in creating engaging and interactive multimedia content. This course focuses on combining various media elements, such as text, graphics, audio, and video, to develop interactive projects. Participants will learn hands-on skills in multimedia design, user interaction, and project implementation, making this course suitable for those with a passion for interactive storytelling and digital experiences.",
+        "project": "Develop a collaborative interactive multimedia project"
     },
     {
         "id":54,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
-        "title": "Multimedia Project Advancementss",
+        "title": "Multimedia Project Advancements",
         "category": "Basic",
         "categoryID": 1,
         "rating": 4.9,
@@ -920,7 +950,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Advanced concepts in audio and video editing.", "Creating more complex multimedia projects."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals who have a foundational understanding of multimedia creation and want to take their skills to the next level. This advanced course delves into cutting-edge techniques, technologies, and strategies to enhance multimedia projects. Participants will explore innovative approaches to design, interactivity, and storytelling, gaining expertise in the latest advancements in multimedia production.",
+        "project": "Develop an advanced multimedia project."
     },
     {
         "id":55,
@@ -933,7 +968,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Preparing for the final showcase.", "Reflecting on the entire program."],
+        "language": null,
+        "tools": null,
+        "summary": "This module serves as a culminating stage in various courses, allowing participants to present and reflect on their acquired knowledge and skills. This module emphasizes the importance of showcasing projects, achievements, or portfolios and encourages thoughtful reflection on the learning journey. Participants will have the opportunity to demonstrate their proficiency, receive feedback, and engage in self-assessment.",
+        "project": "Present a comprehensive showcase of all learned concepts."
     },
     {
         "id":56,
@@ -946,7 +986,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Exploring the impact of technology on society.", "Discussing ethical considerations in technology."],
+        "language": null,
+        "tools": null,
+        "summary": "This project is a comprehensive initiative designed to explore the multifaceted relationship between technology and society. Participants will delve into the impacts, both positive and negative, that technological advancements have on individuals, communities, and the global landscape. Through research, analysis, and creative expression, participants will articulate their findings and insights in a cohesive project that contributes to a deeper understanding of the complex interplay between technology and society.",
+        "project": "Develop a project on the societal impact of technology."
     },
     {
         "id":58,
@@ -959,8 +1004,20 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Presenting the outcomes of the entire program.", "Reflecting on the tech journey and achievements."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Present a comprehensive final reflection."
     },
+
+
+
+
+
+
+
     {
         "id":59,
         "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
@@ -972,7 +1029,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to audio and video editing concepts.", "Understanding basic tools for audio and video editing."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Create a simple edited audio recording."
     },
     {
         "id":60,
@@ -985,7 +1047,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to audio and video editing concepts.", "Understanding basic tools for audio and video editing."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Create a simple edited audio recording."
     },
     {
         "id":61,
@@ -998,7 +1065,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to audio and video editing concepts.", "Understanding basic tools for audio and video editing."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Create a simple edited audio recording."
     },
     {
         "id":62,
@@ -1011,7 +1083,12 @@
         "price": 340,
         "discountedPrice": 260,
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
-        "avatarName": "Theresa"
+        "avatarName": "Theresa",
+        "curriculum": ["Introduction to audio and video editing concepts.", "Understanding basic tools for audio and video editing."],
+        "language": null,
+        "tools": null,
+        "summary": "The course is designed for individuals seeking foundational skills in editing audio and video content. Tailored for beginners, this course covers essential concepts, tools, and techniques for editing audio and video files. Participants will gain hands-on experience with popular editing software and learn the fundamentals of creating polished and engaging multimedia content.",
+        "project": "Create a simple edited audio recording."
     },
     {
         "id":63,

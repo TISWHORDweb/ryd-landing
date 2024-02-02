@@ -127,7 +127,7 @@ const Courses = () => {
                 tabIndex="0"
               >
                 <div className="row g-4">
-                  {filteredCourses.map((item, index) => (
+                  {filteredCourses.slice(0, 20).map((item, index) => (
                     <div key={index} className="col-lg-4 col-md-6">
                       <CourseCard courseDetails={item} />
                     </div>

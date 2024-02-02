@@ -5,9 +5,9 @@
         "description" : "Basics of Computers and Devices.\nExplore computer components and functions.\nLearn device connectivity and interaction.",
         "rating": 4.9,
         "ratingCount": 526,
-        "age": "10-17 Years",
+        "age": "7-12 Years",
         "class": 8,
-        "duration": "1-8",
+        "duration": 8,
         "avatar": "/images/avatar/1.png",
         "avatarName": " RYD"
     },
@@ -17,9 +17,9 @@
         "description" : "Introduction to Digital Art.\nLearn digital art concepts and techniques.\nExperiment with various digital art tools.",
         "rating": 4.9,
         "ratingCount": 526,
-        "age": "8-12 Years",
+        "age": "7-12 Years",
         "class": 8,
-        "duration": "1-8",
+        "duration": 8,
         "avatar": "/images/avatar/2.png",
         "avatarName": " RYD"
     },
@@ -29,9 +29,9 @@
         "description" : "Introduction to web browsing concepts.\nExploring online communication tools.\nBasics of blogging and online content creation.",
         "rating": 4.9,
         "ratingCount": 26,
-        "age": "8-12 Years",
+        "age": "7-12 Years",
         "class": 8,
-        "duration": "1-8",
+        "duration": 8,
         "avatar": "/images/avatar/2.png",
         "avatarName": " RYD"
     }

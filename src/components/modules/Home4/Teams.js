@@ -130,8 +130,7 @@ const Teams = () => {
                             }
                             }}
                         >
-                            {
-                            coursedata.map((item, index) => {
+                            {coursedata.map((item, index) => {
                                 const lines = item.description.split('\n');
                                 return (
                                     <SwiperSlide key={index}>
@@ -144,7 +143,7 @@ const Teams = () => {
                                             <div className="course__content">
                                             <div className="course__content-top">
                                                 <div className="course__author">
-                                                <Link href="mentor-details"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
+                                                <Link href="/courses"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
                                                 </div>
                                                 <div className="course__focus-inner">
                                                 <span>{item.rating}</span>
@@ -152,7 +151,7 @@ const Teams = () => {
                                                 <span>{`(${item.ratingCount})`}</span>
                                                 </div>
                                             </div>
-                                            <h5> <Link href="course-details">{item.title}</Link> </h5>
+                                            <h5> <Link href="/courses">{item.title}</Link> </h5>
                                             <p>
                                                 {lines.map((line, index) => (
                                                     // Add a <br /> after each line except the last one
@@ -164,8 +163,8 @@ const Teams = () => {
                                             </p>
                                             <div className="course__content-footer">
                                                 <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
-                                                <span><img src="/images/course/home4/4.svg" alt="icon" /> {`weeks ${item.duration}`}</span>
-                                                <span><img src="/images/course/home4/3.svg" alt="icon" /> <Link href="">{`${item.class} classes`}</Link></span>
+                                                <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} weeks`}</span>
+                                                <span><img src="/images/course/home4/3.svg" alt="icon" /> {`${item.class} classes`}</span>
                                             </div>
                                             </div>
                                         </div>
