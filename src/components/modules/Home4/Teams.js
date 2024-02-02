@@ -136,36 +136,36 @@ const Teams = () => {
                                     <SwiperSlide key={index}>
                                         <div className='course__item'>
                                             <div className='course__item-inner'>
-                                            <div className='course__thumb'>
-                                                <img src={item.thumbnail} alt="course Images" />
-                                            </div>
+                                                <div className='course__thumb'>
+                                                    <img src={item.thumbnail} alt="course Images" />
+                                                </div>
                                             </div>
                                             <div className="course__content">
-                                            <div className="course__content-top">
-                                                <div className="course__author">
-                                                <Link href="/courses"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
+                                                <div className="course__content-top">
+                                                    <div className="course__author">
+                                                        <img src={item.avatar} alt="avatar" /> 
+                                                    </div>
+                                                    <div className="course__focus-inner">
+                                                        <span>{item.rating}</span>
+                                                        <img src="/images/course/star.png" alt="review-star" />
+                                                        <span>{` (${item.ratingCount})`}</span>
+                                                    </div>
                                                 </div>
-                                                <div className="course__focus-inner">
-                                                <span>{item.rating}</span>
-                                                <img src="/images/course/star.png" alt="review-star" />
-                                                <span>{`(${item.ratingCount})`}</span>
+                                                <h5> <Link href="/courses">{item.title}</Link> </h5>
+                                                <p>
+                                                    {lines.map((line, index) => (
+                                                        // Add a <br /> after each line except the last one
+                                                        <React.Fragment key={index}>
+                                                        * {line}
+                                                        {index !== lines.length - 1 && <br />}
+                                                        </React.Fragment>
+                                                    ))}
+                                                </p>
+                                                <div className="course__content-footer">
+                                                    <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
+                                                    <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} weeks`}</span>
+                                                    <span><img src="/images/course/home4/3.svg" alt="icon" /> {`${item.class} classes`}</span>
                                                 </div>
-                                            </div>
-                                            <h5> <Link href="/courses">{item.title}</Link> </h5>
-                                            <p>
-                                                {lines.map((line, index) => (
-                                                    // Add a <br /> after each line except the last one
-                                                    <React.Fragment key={index}>
-                                                    * {line}
-                                                    {index !== lines.length - 1 && <br />}
-                                                    </React.Fragment>
-                                                ))}
-                                            </p>
-                                            <div className="course__content-footer">
-                                                <span><img src="/images/course/home4/1.svg" alt="icon" />{item.age}</span>
-                                                <span><img src="/images/course/home4/4.svg" alt="icon" /> {`${item.duration} weeks`}</span>
-                                                <span><img src="/images/course/home4/3.svg" alt="icon" /> {`${item.class} classes`}</span>
-                                            </div>
                                             </div>
                                         </div>
                                     </SwiperSlide>

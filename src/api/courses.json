@@ -12,7 +12,7 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Introduction to computers and their components.", "Understanding device functionalities."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Drawing Software",
         "summary": "The course serves as a foundational exploration into the fundamental concepts and skills essential for navigating the dynamic landscape of modern technology.",
         "project": "Create a simple digital artwork using basic tools."
@@ -30,7 +30,7 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
         "avatarName": "Wilsone",
         "curriculum": ["Basics of operating system navigation.", "Navigating file systems and directories."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Presentation Software",
         "summary": "This course is designed to equip participants with the essential skills and knowledge required to navigate the complexities of the digital landscape effectively",
         "project": "Develop a basic interactive story using digital tools."
@@ -48,7 +48,7 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
         "avatarName": "Jenny",
         "curriculum": ["Introduction to internet safety practices.", "Identifying and addressing online risks."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Graphic Design Software",
         "summary": "This course is dedicated to promoting digital well-being and fostering a secure and responsible online presence. In an era where online interactions are integral to daily life, this course focuses on empowering individuals with the knowledge and skills necessary to navigate the digital world safely and ethically",
         "project": "Design an online safety poster."
@@ -66,7 +66,7 @@
         "avatar": "images/home4/avatar/3.png",
         "avatarName": "Theresa",
         "curriculum": ["Developing essential keyboarding and mouse proficiency.", "Practice basic typing skills."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Game Development Software",
         "summary": "This course is a foundational program designed to empower participants with essential skills for efficient and effective computer use. Tailored for beginners, this course focuses on developing proficiency in keyboarding and mouse navigation, laying the groundwork for successful interaction with digital devices.",
         "project": "Create a simple interactive game."
@@ -84,7 +84,7 @@
         "avatar": "images/home4/avatar/2.png",
         "avatarName": "Wilsone",
         "curriculum": ["Engaging in educational games promoting learning.", "Exploring interactive and educational content."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Collaborative Storytelling Platforms",
         "summary": "This is an engaging and interactive course designed to make technology discovery an enjoyable experience. Geared towards learners of all ages, this course aims to spark curiosity and creativity by introducing a playful approach to exploring various aspects of technology",
         "project": "Develop a collaborative digital story."
@@ -102,14 +102,14 @@
         "avatar": "images/home4/avatar/1.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Introduction to digital art concepts and techniques.", "Experimenting with various digital art tools."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Digital Art Software",
         "summary": "An inspiring course crafted to unlock the boundless creative potential within the digital realm. Tailored for individuals with a passion for artistic expression and innovation, this course blends technology with creativity to unleash a spectrum of digital artistic possibilities.",
         "project": "Design a digital art portfolio."
     },
     {
         "id":7,
-        "thumbnail": "images/course/home4/4.png",
+        "thumbnail": "images/course/home4/21.jpg",
         "title": "Exploring Graphic Design Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -120,14 +120,14 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/2.png",
         "avatarName": "Wilsone",
         "curriculum": ["Understanding graphic design principles.", "Creating simple graphics using digital tools."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Graphic Design Software",
         "summary": "A comprehensive course designed to introduce participants to the fundamental principles and practices of graphic design. Tailored for beginners, this course offers a hands-on exploration of the key elements of visual communication, providing a solid foundation for individuals interested in the dynamic and creative field of graphic design.",
         "project": "Create a simple digital poster."
     },
     {
         "id":8,
-        "thumbnail": "images/course/home4/1.png",
+        "thumbnail": "images/course/home4/14.jpg",
         "title": "Crafting Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -138,7 +138,7 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
         "avatarName": "Jenny",
         "curriculum": ["Basics of creating simple digital presentations.", "Developing skills in crafting engaging presentations."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Presentation Software",
         "summary": "This course is a dynamic program designed to empower participants with the skills to create compelling and impactful digital presentations. Tailored for professionals, educators, and anyone seeking to enhance their communication abilities, this course explores the art and science of crafting visually engaging and persuasive digital presentations.",
         "project": "Develop an interactive presentation."
@@ -158,7 +158,7 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
         "avatarName": "Jenny",
         "curriculum": ["Exploring fundamental tech components.", "Understanding computer hardware and software."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Concept Design Platforms",
         "summary": "The course provides a comprehensive exploration of the fundamental components that make up computer systems and the software that powers them. Tailored for individuals with varying levels of technical knowledge, this course serves as a foundation for understanding the interplay between hardware and software in the realm of computing.",
         "project": "Design a basic tech concept."
@@ -176,14 +176,14 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Understanding the logic behind programming.", "Practicing logical thinking in problem-solving."],
-        "language": "Scratch",
+        "language": "Code.org",
         "tools": "Logical Problem-Solving Platforms",
         "summary": "The course is a foundational program designed to introduce participants to the fundamental principles of programming and logical thinking. Tailored for beginners, this course lays the groundwork for understanding the core concepts that underpin computer programming, setting the stage for further exploration in the world of software development.",
         "project": "Create a simple logical game."
     },
     {
         "id":11,
-        "thumbnail": "images/course/home4/8.jpg",
+        "thumbnail": "images/course/home4/21.jpg",
         "title": "Basics of Web Development",
         "category": "Advanced",
         "categoryID": 2,
@@ -201,7 +201,7 @@
     },
     {
         "id":12,
-        "thumbnail": "images/course/home4/5.jpg",
+        "thumbnail": "images/course/home4/22.jpg",
         "title": "Introduction to Robotics",
         "category": "Advanced",
         "categoryID": 2,
@@ -212,14 +212,14 @@
         "avatar": "https://thetork.com/demos/vue/educax/images/avatar/1.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Learning basic robotics principles and components.", "Building and programming a simple robot."],
-        "language": "Scratch, Blockly",
+        "language": "Code.org, Blockly",
         "tools": "Robotics Programming Platforms",
         "summary": "The course provides a comprehensive overview of the fundamental principles and applications of robotics. Aimed at beginners with an interest in technology and automation, this course explores the interdisciplinary field of robotics, covering topics ranging from basic concepts to real-world applications.",
         "project": "Create a basic robotic project."
     },
     {
         "id":13,
-        "thumbnail": "images/course/home4/7.jpg",
+        "thumbnail": "images/course/home4/5.jpg",
         "title": "Collaborative Coding Projects",
         "category": "Advanced",
         "categoryID": 2,
@@ -237,7 +237,7 @@
     },
     {
         "id":14,
-        "thumbnail": "images/course/home4/5.jpg",
+        "thumbnail": "images/course/home4/8.jpg",
         "title": "Project Management Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -245,7 +245,7 @@
         "ratingCount": 526,
         "price": 340,
         "discountedPrice": 260,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/3.png",
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/.png",
         "avatarName": "Jhon Doe",
         "curriculum": ["Understanding project management principles.", "Applying project management to tech projects."],
         "language": null,
@@ -255,7 +255,7 @@
     },
     {
         "id":15,
-        "thumbnail": "images/course/home4/6.jpg",
+        "thumbnail": "images/course/home4/14.jpg",
         "title": "Introduction to Design Thinking",
         "category": "Advanced",
         "categoryID": 2,
@@ -263,7 +263,7 @@
         "ratingCount": 526,
         "price": 90,
         "discountedPrice": 30,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/21.png",
         "avatarName": "Theresa",
         "curriculum": ["Learning design thinking principles.", "Applying design thinking to real-world problems."],
         "language": null,
@@ -281,7 +281,7 @@
         "ratingCount": 526,
         "price": 90,
         "discountedPrice": 30,
-        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/4.png",
+        "avatar": "https://thetork.com/demos/vue/educax/images/avatar/22.png",
         "avatarName": "Theresa",
         "curriculum": ["Collaborating on a complex tech project.", "Applying project management and design thinking."],
         "language": "Python, JavaScript",
@@ -293,7 +293,7 @@
 
     {
         "id":16,
-        "thumbnail": "images/course/home4/2.png",
+        "thumbnail": "images/course/home4/24.jpg",
         "title": "Introduction to Digital Art",
         "category": "Basic",
         "categoryID": 1,
@@ -311,7 +311,7 @@
     },
     {
         "id":17,
-        "thumbnail": "images/course/home4/8.jpg",
+        "thumbnail": "images/course/home4/19.jpg",
         "title": "Basic Graphic Design Skills",
         "category": "Basic",
         "categoryID": 1,
@@ -329,7 +329,7 @@
     },
     {
         "id":18,
-        "thumbnail": "images/course/home4/11.jpg",
+        "thumbnail": "images/course/home4/18.jpg",
         "title": "Creating Simple Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -347,7 +347,7 @@
     },
     {
         "id":19,
-        "thumbnail": "images/course/home4/3.jpg",
+        "thumbnail": "images/course/home4/23.jpg",
         "title": "Introduction to Coding Concepts through Visual Programming",
         "category": "Basic",
         "categoryID": 1,
@@ -401,7 +401,7 @@
     },
     {
         "id":22,
-        "thumbnail": "images/course/home4/9.jpg",
+        "thumbnail": "images/course/home4/26.jpg",
         "title": "Multimedia Production Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -444,7 +444,7 @@
 
     {
         "id":24,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/8.png",
+        "thumbnail": "images/course/home4/27.jpg",
         "title": "Project Management Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -462,7 +462,7 @@
     },
     {
         "id":25,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/9.png",
+        "thumbnail": "images/course/home4/20.jpg",
         "title": "Design Thinking Principles",
         "category": "Advanced",
         "categoryID": 2,
@@ -480,7 +480,7 @@
     },
     {
         "id":26,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/16.jpg",
         "title": "Team-Based Technology Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -498,7 +498,7 @@
     },
     {
         "id":27,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/19.jpg",
         "title": "Final Presentation and Showcase Preparation",
         "category": "Advanced",
         "categoryID": 2,
@@ -516,7 +516,7 @@
     },
     {
         "id":28,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+        "thumbnail": "images/course/home4/16.jpg",
         "title": "Final Presentation and Showcase",
         "category": "Advanced",
         "categoryID": 2,
@@ -534,7 +534,7 @@
     },
     {
         "id":29,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+        "thumbnail": "images/course/home4/24.jpg",
         "title": "Reflection and Future Learning Plans",
         "category": "Advanced",
         "categoryID": 2,
@@ -552,7 +552,7 @@
     },
     {
         "id":30,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/6.png",
+        "thumbnail": "images/course/home4/13.jpg",
         "title": "Mobile App Development Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -571,7 +571,7 @@
 
     {
         "id":31,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/7.png",
+        "thumbnail": "images/course/home4/27.jpg",
         "title": "App Design and Prototyping",
         "category": "Advanced",
         "categoryID": 2,
@@ -626,7 +626,7 @@
     },
     {
         "id":34,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+        "thumbnail": "images/course/home4/23.jpg",
         "title": "Introduction to Blogging",
         "category": "Basic",
         "categoryID": 1,
@@ -644,7 +644,7 @@
     },
     {
         "id":35,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/17.jpg",
         "title": "Introduction to Online Collaboration Tools.",
         "category": "Basic",
         "categoryID": 1,
@@ -680,7 +680,7 @@
     },
     {
         "id":37,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/23.jpg",
         "title": "Advanced Web Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -698,7 +698,7 @@
     },
     {
         "id":38,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/15.jpg",
         "title": "Multimedia Production Advancements",
         "category": "Basic",
         "categoryID": 1,
@@ -716,7 +716,7 @@
     },
     {
         "id":40,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/22.jpg",
         "title": "Introduction to Mobile App Development",
         "category": "Advanced",
         "categoryID": 2,
@@ -740,7 +740,7 @@
 
     {
         "id":41,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/11.jpg",
         "title": "Basics of App Design",
         "category": "Advanced",
         "categoryID": 2,
@@ -758,7 +758,7 @@
     },
     {
         "id":42,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/14.jpg",
         "title": "Simple App Prototyping",
         "category": "Basic",
         "categoryID": 4,
@@ -776,7 +776,7 @@
     },
     {
         "id":43,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/15.jpg",
         "title": "Introduction to Mobile Platforms",
         "category": "Advanced",
         "categoryID": 2,
@@ -794,7 +794,7 @@
     },
     {
         "id":44,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "images/course/home4/7.jpg",
         "title": "Collaborative App Development Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -812,7 +812,7 @@
     },
     {
         "id":45,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "images/course/home4/12.jpg",
         "title": "Mobile App Development Challenges",
         "category": "Advanced",
         "categoryID": 2,

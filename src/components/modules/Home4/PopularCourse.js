@@ -70,12 +70,12 @@ const PopularCourse = () => {
                       <div className="course__content">
                         <div className="course__content-top">
                           <div className="course__author">
-                            <Link href="mentor-details"><img src={item.avatar} alt="avatar" /> {item.avatarName}</Link>
+                            <img src={item.avatar} alt="avatar"  /> 
                           </div>
                           <div className="course__focus-inner">
                             <span>{item.rating}</span>
                             <img src="/images/course/star.png" alt="review-star" />
-                            <span>{`(${item.ratingCount})`}</span>
+                            <span>{` (${item.ratingCount})`}</span>
                           </div>
                         </div>
                         <h5> <Link href="course-details">{item.title}</Link> </h5>
