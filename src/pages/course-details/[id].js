@@ -26,7 +26,7 @@ const Course_details = () => {
           try {
             const data = CoursesData;
             const filteredCourse = data.find((item) => item.id === parseInt(id))
-
+            console.log(filteredCourse)
             setCourseDetail(filteredCourse);
           } catch (error) {
             return null

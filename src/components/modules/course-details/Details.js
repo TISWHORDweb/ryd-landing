@@ -40,7 +40,7 @@ const Details = ({ props }) => {
             <div className="col-lg-4">
               <div className="coursedetails__package">
                 <div className="coursedetails__thumb">
-                  <img src={props.thumbnail} alt="packgae-image" />
+                  <img src={`/${props?.thumbnail}`} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
                     <Link href="/signin"
                     //  onClick={(e) => {
