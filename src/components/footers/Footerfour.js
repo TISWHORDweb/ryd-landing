@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import ScrollToTop from "react-scroll-to-top";
 const Footerfour = () => {
@@ -118,6 +118,15 @@ const Footerfour = () => {
                       <ul className="social mt-4">
                         <li className="social__item">
                           <Link
+                            href="https://www.linkedin.com/company/ryd-learning/"
+                            target="_blank"
+                            className="social__link social__link--rounded4"
+                          >
+                            <FaLinkedin />
+                          </Link>
+                        </li>
+                        {/* <li className="social__item"> 
+                          <Link
                             href=""
                             className="social__link social__link--rounded4"
                           >
@@ -147,7 +156,7 @@ const Footerfour = () => {
                           >
                             <FaTwitter />
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

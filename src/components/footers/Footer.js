@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import ScrollToTop from "react-scroll-to-top";
-import { faFacebookF, faInstagram, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faYoutube, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <>
@@ -118,6 +118,14 @@ const Footer = () => {
                       <ul className="social mt-4">
                         <li className="social__item">
                           <Link
+                            href="https://www.linkedin.com/company/ryd-learning/"
+                            className="social__link social__link--rounded1"
+                          >
+                            <FontAwesomeIcon icon={faLinkedin} />
+                          </Link>
+                        </li>
+                        {/* <li className="social__item">
+                          <Link
                             href=""
                             className="social__link social__link--rounded1"
                           >
@@ -147,7 +155,7 @@ const Footer = () => {
                           >
                             <FontAwesomeIcon icon={faTwitter} />
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
