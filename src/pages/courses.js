@@ -65,7 +65,7 @@ const Courses = () => {
       <PageHeader
         title="Courses"
         subtitle="Courses"
-        image='images/bg/home1/2.png'
+        image='../../../images/bg/home1/2.png'
       />
       
 

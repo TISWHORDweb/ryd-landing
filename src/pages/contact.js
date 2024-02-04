@@ -13,7 +13,7 @@ const Contact = () => {
       <PageHeader
         title="Contact Us"
         subtitle="Contact Us"
-        image='images/bg/home1/7.png'
+        image='../../../images/bg/home1/7.png'
       />
       
       <div className="conatct padding-top padding-bottom">

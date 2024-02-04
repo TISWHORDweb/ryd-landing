@@ -44,7 +44,7 @@ const Course_details = () => {
       <PageHeader
         title="Course Details"
         subtitle="Course Details"
-        image='../images/bg/home1/11.png'
+        image='../../../images/bg/home1/11.png'
       />
       <Details props={courseDetail} />
         
