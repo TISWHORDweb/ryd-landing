@@ -40,7 +40,7 @@ const Details = ({ props }) => {
             <div className="col-lg-4">
               <div className="coursedetails__package">
                 <div className="coursedetails__thumb">
-                  <img src={`/${props?.thumbnail}`} alt="packgae-image" />
+                  <img src={`${props?.thumbnail}`} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
                     <Link href="/signin"
                     //  onClick={(e) => {
@@ -64,7 +64,7 @@ const Details = ({ props }) => {
                   </Link>
 
                   <div className="coursedetails__offer-social">
-                    <ul className="social">
+                    {/* <ul className="social">
                       <li className="social__item">
                         <Link
                           href=""
@@ -89,7 +89,7 @@ const Details = ({ props }) => {
                           <FaTwitter />
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
                 {/* <div className="coursedetails__footer">

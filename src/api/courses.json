@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "thumbnail": "images/course/home4/1.png",
+        "thumbnail": "/images/course/home4/1.png",
         "title": "Introduction to Tech Essentials",
         "category": "Basic",
         "categoryID": 1,
@@ -19,7 +19,7 @@
     },
     {
         "id":2,
-        "thumbnail": "images/course/home4/2.png",
+        "thumbnail": "/images/course/home4/2.png",
         "title": "Navigating the Digital World",
         "category": "Basic",
         "categoryID": 1,
@@ -37,7 +37,7 @@
     },
     {
         "id":3,
-        "thumbnail": "images/course/home4/4.png",
+        "thumbnail": "/images/course/home4/4.png",
         "title": "Safety in the Online Space",
         "category": "Basic",
         "categoryID": 1,
@@ -55,7 +55,7 @@
     },
     {
         "id":4,
-        "thumbnail": "images/course/home4/9.jpg",
+        "thumbnail": "/images/course/home4/9.jpg",
         "title": "Fundamental Keyboarding and Mouse Skills",
         "category": "Basic",
         "categoryID": 1,
@@ -73,7 +73,7 @@
     },
     {
         "id":5,
-        "thumbnail": "images/course/home4/3.jpg",
+        "thumbnail": "/images/course/home4/3.jpg",
         "title": "Fun with Tech Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -91,7 +91,7 @@
     },
     {
         "id":6,
-        "thumbnail": "images/course/home4/10.jpg",
+        "thumbnail": "/images/course/home4/10.jpg",
         "title": "Digital Creativity Unleashed",
         "category": "Basic",
         "categoryID": 1,
@@ -109,7 +109,7 @@
     },
     {
         "id":7,
-        "thumbnail": "images/course/home4/21.jpg",
+        "thumbnail": "/images/course/home4/21.jpg",
         "title": "Exploring Graphic Design Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -127,7 +127,7 @@
     },
     {
         "id":8,
-        "thumbnail": "images/course/home4/14.jpg",
+        "thumbnail": "/images/course/home4/14.jpg",
         "title": "Crafting Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -147,7 +147,7 @@
 
     {
         "id":9,
-        "thumbnail": "images/course/home4/7.jpg",
+        "thumbnail": "/images/course/home4/7.jpg",
         "title": "Overview of Computer Hardware and Software",
         "category": "Advanced",
         "categoryID": 2,
@@ -165,7 +165,7 @@
     },
     {
         "id":10,
-        "thumbnail": "images/course/home4/9.jpg",
+        "thumbnail": "/images/course/home4/9.jpg",
         "title": "Introduction to Programming Logic",
         "category": "Advanced",
         "categoryID": 2,
@@ -183,7 +183,7 @@
     },
     {
         "id":11,
-        "thumbnail": "images/course/home4/21.jpg",
+        "thumbnail": "/images/course/home4/21.jpg",
         "title": "Basics of Web Development",
         "category": "Advanced",
         "categoryID": 2,
@@ -201,7 +201,7 @@
     },
     {
         "id":12,
-        "thumbnail": "images/course/home4/22.jpg",
+        "thumbnail": "/images/course/home4/22.jpg",
         "title": "Introduction to Robotics",
         "category": "Advanced",
         "categoryID": 2,
@@ -219,7 +219,7 @@
     },
     {
         "id":13,
-        "thumbnail": "images/course/home4/5.jpg",
+        "thumbnail": "/images/course/home4/5.jpg",
         "title": "Collaborative Coding Projects",
         "category": "Advanced",
         "categoryID": 2,
@@ -237,7 +237,7 @@
     },
     {
         "id":14,
-        "thumbnail": "images/course/home4/8.jpg",
+        "thumbnail": "/images/course/home4/8.jpg",
         "title": "Project Management Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -255,7 +255,7 @@
     },
     {
         "id":15,
-        "thumbnail": "images/course/home4/14.jpg",
+        "thumbnail": "/images/course/home4/14.jpg",
         "title": "Introduction to Design Thinking",
         "category": "Advanced",
         "categoryID": 2,
@@ -273,7 +273,7 @@
     }, 
     {
         "id":15.5,
-        "thumbnail": "images/course/home4/13.jpg",
+        "thumbnail": "/images/course/home4/13.jpg",
         "title": "Team-Based Technology Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -293,7 +293,7 @@
 
     {
         "id":16,
-        "thumbnail": "images/course/home4/24.jpg",
+        "thumbnail": "/images/course/home4/24.jpg",
         "title": "Introduction to Digital Art",
         "category": "Basic",
         "categoryID": 1,
@@ -311,7 +311,7 @@
     },
     {
         "id":17,
-        "thumbnail": "images/course/home4/19.jpg",
+        "thumbnail": "/images/course/home4/19.jpg",
         "title": "Basic Graphic Design Skills",
         "category": "Basic",
         "categoryID": 1,
@@ -329,7 +329,7 @@
     },
     {
         "id":18,
-        "thumbnail": "images/course/home4/18.jpg",
+        "thumbnail": "/images/course/home4/18.jpg",
         "title": "Creating Simple Digital Presentations",
         "category": "Basic",
         "categoryID": 1,
@@ -347,7 +347,7 @@
     },
     {
         "id":19,
-        "thumbnail": "images/course/home4/23.jpg",
+        "thumbnail": "/images/course/home4/23.jpg",
         "title": "Introduction to Coding Concepts through Visual Programming",
         "category": "Basic",
         "categoryID": 1,
@@ -365,7 +365,7 @@
     },
     {
         "id":20,
-        "thumbnail": "images/course/home4/10.jpg",
+        "thumbnail": "/images/course/home4/10.jpg",
         "title": "Collaborative Projects",
         "category": "Basic",
         "categoryID": 1,
@@ -383,7 +383,7 @@
     },
     {
         "id":21,
-        "thumbnail": "images/course/home4/8.jpg",
+        "thumbnail": "/images/course/home4/8.jpg",
         "title": "Digital Art Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -401,7 +401,7 @@
     },
     {
         "id":22,
-        "thumbnail": "images/course/home4/26.jpg",
+        "thumbnail": "/images/course/home4/26.jpg",
         "title": "Multimedia Production Basics",
         "category": "Basic",
         "categoryID": 1,
@@ -419,7 +419,7 @@
     },
     {
         "id":23,
-        "thumbnail": "images/course/home4/4.png",
+        "thumbnail": "/images/course/home4/4.png",
         "title": "Interactive Multimedia Projects",
         "category": "Basic",
         "categoryID": 1,
@@ -444,7 +444,7 @@
 
     {
         "id":24,
-        "thumbnail": "images/course/home4/27.jpg",
+        "thumbnail": "/images/course/home4/27.jpg",
         "title": "Project Management Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -462,7 +462,7 @@
     },
     {
         "id":25,
-        "thumbnail": "images/course/home4/20.jpg",
+        "thumbnail": "/images/course/home4/20.jpg",
         "title": "Design Thinking Principles",
         "category": "Advanced",
         "categoryID": 2,
@@ -480,7 +480,7 @@
     },
     {
         "id":26,
-        "thumbnail": "images/course/home4/16.jpg",
+        "thumbnail": "/images/course/home4/16.jpg",
         "title": "Team-Based Technology Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -498,7 +498,7 @@
     },
     {
         "id":27,
-        "thumbnail": "images/course/home4/19.jpg",
+        "thumbnail": "/images/course/home4/19.jpg",
         "title": "Final Presentation and Showcase Preparation",
         "category": "Advanced",
         "categoryID": 2,
@@ -516,7 +516,7 @@
     },
     {
         "id":28,
-        "thumbnail": "images/course/home4/16.jpg",
+        "thumbnail": "/images/course/home4/16.jpg",
         "title": "Final Presentation and Showcase",
         "category": "Advanced",
         "categoryID": 2,
@@ -534,7 +534,7 @@
     },
     {
         "id":29,
-        "thumbnail": "images/course/home4/24.jpg",
+        "thumbnail": "/images/course/home4/24.jpg",
         "title": "Reflection and Future Learning Plans",
         "category": "Advanced",
         "categoryID": 2,
@@ -552,7 +552,7 @@
     },
     {
         "id":30,
-        "thumbnail": "images/course/home4/13.jpg",
+        "thumbnail": "/images/course/home4/13.jpg",
         "title": "Mobile App Development Basics",
         "category": "Advanced",
         "categoryID": 2,
@@ -571,7 +571,7 @@
 
     {
         "id":31,
-        "thumbnail": "images/course/home4/27.jpg",
+        "thumbnail": "/images/course/home4/27.jpg",
         "title": "App Design and Prototyping",
         "category": "Advanced",
         "categoryID": 2,
@@ -590,7 +590,7 @@
 
     {
         "id":32,
-        "thumbnail": "images/course/home4/2.png",
+        "thumbnail": "/images/course/home4/2.png",
         "title": "Basics of Web Browsing",
         "category": "Basic",
         "categoryID": 1,
@@ -608,7 +608,7 @@
     },
     {
         "id":33,
-        "thumbnail": "images/course/home4/1.png",
+        "thumbnail": "/images/course/home4/1.png",
         "title": "Online Communication and Safety",
         "category": "Basic",
         "categoryID": 1,
@@ -626,7 +626,7 @@
     },
     {
         "id":34,
-        "thumbnail": "images/course/home4/23.jpg",
+        "thumbnail": "/images/course/home4/23.jpg",
         "title": "Introduction to Blogging",
         "category": "Basic",
         "categoryID": 1,
@@ -644,7 +644,7 @@
     },
     {
         "id":35,
-        "thumbnail": "images/course/home4/17.jpg",
+        "thumbnail": "/images/course/home4/17.jpg",
         "title": "Introduction to Online Collaboration Tools.",
         "category": "Basic",
         "categoryID": 1,
@@ -680,7 +680,7 @@
     },
     {
         "id":37,
-        "thumbnail": "images/course/home4/23.jpg",
+        "thumbnail": "/images/course/home4/23.jpg",
         "title": "Advanced Web Exploration",
         "category": "Basic",
         "categoryID": 1,
@@ -698,7 +698,7 @@
     },
     {
         "id":38,
-        "thumbnail": "images/course/home4/15.jpg",
+        "thumbnail": "/images/course/home4/15.jpg",
         "title": "Multimedia Production Advancements",
         "category": "Basic",
         "categoryID": 1,
@@ -716,7 +716,7 @@
     },
     {
         "id":40,
-        "thumbnail": "images/course/home4/22.jpg",
+        "thumbnail": "/images/course/home4/22.jpg",
         "title": "Introduction to Mobile App Development",
         "category": "Advanced",
         "categoryID": 2,
@@ -740,7 +740,7 @@
 
     {
         "id":41,
-        "thumbnail": "images/course/home4/11.jpg",
+        "thumbnail": "/images/course/home4/11.jpg",
         "title": "Basics of App Design",
         "category": "Advanced",
         "categoryID": 2,
@@ -758,7 +758,7 @@
     },
     {
         "id":42,
-        "thumbnail": "images/course/home4/14.jpg",
+        "thumbnail": "/images/course/home4/14.jpg",
         "title": "Simple App Prototyping",
         "category": "Basic",
         "categoryID": 4,
@@ -776,7 +776,7 @@
     },
     {
         "id":43,
-        "thumbnail": "images/course/home4/15.jpg",
+        "thumbnail": "/images/course/home4/15.jpg",
         "title": "Introduction to Mobile Platforms",
         "category": "Advanced",
         "categoryID": 2,
@@ -794,7 +794,7 @@
     },
     {
         "id":44,
-        "thumbnail": "images/course/home4/7.jpg",
+        "thumbnail": "/images/course/home4/7.jpg",
         "title": "Collaborative App Development Project",
         "category": "Advanced",
         "categoryID": 2,
@@ -812,7 +812,7 @@
     },
     {
         "id":45,
-        "thumbnail": "images/course/home4/12.jpg",
+        "thumbnail": "/images/course/home4/12.jpg",
         "title": "Mobile App Development Challenges",
         "category": "Advanced",
         "categoryID": 2,
@@ -830,7 +830,7 @@
     },
     {
         "id":48,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+        "thumbnail": "https://thetork.com/demos/vue/educax//images/course/2.png",
         "title": "Advanced App Prototyping",
         "category": "Advanced",
         "categoryID": 2,
@@ -848,7 +848,7 @@
     },
     {
         "id":49,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "https://thetork.com/demos/vue/educax//images/course/3.png",
         "title": "Ethical Considerations in Technology",
         "category": "Advanced",
         "categoryID": 2,
@@ -867,7 +867,7 @@
 
     {
         "id":50,
-        "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+        "thumbnail": "https://thetork.com/demos/vue/educax//images/course/3.png",
         "title": "Basics of Audio and Video Editing",
         "category": "Basic",
         "categoryID": 1,
