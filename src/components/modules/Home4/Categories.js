@@ -38,7 +38,7 @@ const Categories = () => {
                         <div className="categories__item-content">
                             <h5 className="style4">{ item.title }</h5>
                             <p>{item.body}</p>
-                            <Link href="/course-category" className="trk-btn trk-btn--rounded trk-btn--secondary4">{"View More "}
+                            <Link href="/courses" className="trk-btn trk-btn--rounded trk-btn--secondary4">{"View More "}
                                 <span><FaArrowRight /></span> </Link>
                         </div>
                     </div>
