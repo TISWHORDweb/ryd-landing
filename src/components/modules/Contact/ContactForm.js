@@ -13,7 +13,7 @@ const ContactForm = () => {
         <div className=" contact__form">
             <h3>Ready To Get Started?</h3>
             <p>You email address will not be published. Required fields are marked.</p>
-            <form action="#" className="account__form" onSubmit={() => false}>
+            <form action="#" className="account__form" onSubmit={submitContact}>
                 <div className="row g-4">
                     <div className="col-lg-12">
                         <div className="input-group">
@@ -70,7 +70,7 @@ const ContactForm = () => {
                     </div>
                 </div>
 
-                <button onClick={submitContact} type="submit" className="trk-btn trk-btn--rounded trk-btn--secondary1">Send Message</button>
+                <button type="submit" className="trk-btn trk-btn--rounded trk-btn--secondary1">Send Message</button>
             </form>
         </div>
 
