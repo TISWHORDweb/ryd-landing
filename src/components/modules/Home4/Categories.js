@@ -22,6 +22,7 @@ const categoryListFour= [
         "body": "Our project-based approach empowers students to apply their knowledge to real-world challenges."
     }
 ]
+
 const Categories = () => {
   return (
     <div>
@@ -39,7 +40,8 @@ const Categories = () => {
                             <h5 className="style4">{ item.title }</h5>
                             <p>{item.body}</p>
                             <Link href="/courses" className="trk-btn trk-btn--rounded trk-btn--secondary4">{"View More "}
-                                <span><FaArrowRight /></span> </Link>
+                                <span><FaArrowRight /></span> 
+                            </Link>
                         </div>
                     </div>
                 </div>
