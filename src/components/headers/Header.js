@@ -170,14 +170,14 @@ const Header = () => {
             </div>
             <div className="header-end">
               <div className="menu-area">
-                {/* <div className="header-btn">
+                <div className="header-btn">
                   <Link
-                    href="/signup"
+                    href="https://app.rydlearning.com/auth-register"
                     className="trk-btn trk-btn--rounded trk-btn--primary1"
                   >
                     <span>Sign Up</span>
                   </Link>
-                </div> */}
+                </div>
                 <div
                   className={
                     activeMenu

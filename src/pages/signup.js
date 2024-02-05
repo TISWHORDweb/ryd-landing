@@ -144,7 +144,7 @@ const signup = () => {
                   <div className="account__switch">
                     <p>
                       Already have an account?{" "}
-                      <Link href="/signin">Log in</Link>
+                      <Link href="https://app.rydlearning.com/auth-login">Log in</Link>
                     </p>
                   </div>
                 </div>
