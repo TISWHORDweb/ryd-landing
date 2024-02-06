@@ -39,7 +39,7 @@ const Course_details = () => {
 
   return (
     <>
-        <FsLightbox toggler={toggler} sources={["https://youtu.be/Hh1UCOizzMc"]} />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/Hh1UCOizzMc"]} />
       <Header />
       <PageHeader
         title="Course Details"

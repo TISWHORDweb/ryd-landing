@@ -39,18 +39,14 @@ const Details = ({ props }) => {
           <div className="row flex-lg-row-reverse g-5">
             <div className="col-lg-4">
               <div className="coursedetails__package">
-                <Link href={props.vid} target="_blank" className="coursedetails__thumb">
+                <div className="coursedetails__thumb">
                   <img src={`${props?.thumbnail}`} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
-                    <Link href="/signin"
-                    //  onClick={(e) => {
-                    //   setToggler(!toggler)
-                    //   e.preventDefault()}}
-                    >
+                    <a href={props?.vid} target="_blank">
                       <img src={"/images/course/home1/2.png"} alt="play-btn" />
-                    </Link>
+                    </a>
                   </div>
-                </Link>
+                </div>
                 <div className="coursedetails__offer">
                   <div className="" style={style}>
                     <span>{props.category}</span>
