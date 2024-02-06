@@ -22,7 +22,7 @@ const Footerfour = () => {
                       <img src="/images/logo/4.png" alt="Logo" />
                     </Link>
                     <p className="footer__about-moto">
-                    Cultivating, Motivating, and Evolving the Next Generation. 
+                    Let's embark on a learning journey where technology meets education.
                     </p>
                   </div>
                 </div>
@@ -148,15 +148,16 @@ const Footerfour = () => {
                           >
                             <FaYoutube />
                           </Link>
-                        </li>
+                        </li>*/}
                         <li className="social__item">
                           <Link
-                            href=""
+                            href="https://twitter.com/rydLearning"
+                            target="_blank"
                             className="social__link social__link--rounded4"
                           >
                             <FaTwitter />
                           </Link>
-                        </li> */}
+                        </li> 
                       </ul>
                     </div>
                   </div>

@@ -24,7 +24,7 @@ const Footer = () => {
                       <img src="/images/logo/logo.png" alt="Logo" />
                     </Link>
                     <p className="footer__about-moto">
-                      Cultivating, Motivating, and Evolving the Next Generation. 
+                      Let's embark on a learning journey where technology meets education.
                     </p>
                   </div>
                 </div>
@@ -147,15 +147,16 @@ const Footer = () => {
                           >
                             <FontAwesomeIcon icon={faYoutube} />
                           </Link>
-                        </li>
+                        </li> */}
                         <li className="social__item">
                           <Link
-                            href=""
+                            href="https://twitter.com/rydLearning"
+                            target="_blank"
                             className="social__link social__link--rounded1"
                           >
                             <FontAwesomeIcon icon={faTwitter} />
                           </Link>
-                        </li> */}
+                        </li> 
                       </ul>
                     </div>
                   </div>
