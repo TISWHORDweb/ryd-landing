@@ -39,7 +39,7 @@ const Details = ({ props }) => {
           <div className="row flex-lg-row-reverse g-5">
             <div className="col-lg-4">
               <div className="coursedetails__package">
-                <div className="coursedetails__thumb">
+                <Link href={props.vid} target="_blank" className="coursedetails__thumb">
                   <img src={`${props?.thumbnail}`} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
                     <Link href="/signin"
@@ -50,7 +50,7 @@ const Details = ({ props }) => {
                       <img src={"/images/course/home1/2.png"} alt="play-btn" />
                     </Link>
                   </div>
-                </div>
+                </Link>
                 <div className="coursedetails__offer">
                   <div className="" style={style}>
                     <span>{props.category}</span>
