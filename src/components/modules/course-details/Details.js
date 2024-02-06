@@ -32,7 +32,7 @@ const Details = ({ props }) => {
 
   return (
     <>
-      <FsLightbox toggler={toggler} sources={["https://www.youtube.com/watch?v=1y_kfWUCFDQ"]} />
+      <FsLightbox toggler={toggler} sources={[props.vid ]} />
 
       <div className="coursedetails coursedetails--style1 padding-top padding-bottom">
         <div className="container" data-aos="fade-up" data-aos-duration="800">
@@ -42,9 +42,12 @@ const Details = ({ props }) => {
                 <div className="coursedetails__thumb">
                   <img src={`${props?.thumbnail}`} alt="packgae-image" />
                   <div className="coursedetails__thumb-playbtn" >
-                    <a href={props?.vid} target="_blank">
+                    <Link href="" onClick={(e) => {
+                      setToggler(!toggler)
+                      e.preventDefault()}}
+                    >
                       <img src={"/images/course/home1/2.png"} alt="play-btn" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="coursedetails__offer">

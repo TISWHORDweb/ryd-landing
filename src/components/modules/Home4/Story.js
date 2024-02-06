@@ -8,7 +8,7 @@ const Story = () => {
         <FsLightbox
         toggler={toggler}
         sources={[
-          "https://youtu.be/Hh1UCOizzMc",
+          "https://www.youtube.com/watch?v=8MH86CAKqfo",
         ]}
       />
       <section className="story padding-top padding-bottom">
@@ -24,12 +24,12 @@ const Story = () => {
               <div className="story__thumb-inner">
                 <img src="/images/story/3.png" alt="story-image" />
                 <div className="story__thumb-playbtn">         
-                    <Link href="" onClick={(e)=>{
+                    <a href="" onClick={(e)=>{
                         setToggler(!toggler)
                         e.preventDefault()
                     }}>
                       <img src="/images/story/2.png" alt="ply-btn" />
-                    </Link>
+                    </a>
                 </div>
               </div>
             </div>
