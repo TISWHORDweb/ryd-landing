@@ -7,7 +7,7 @@ const Meta = () => {
          <meta name="description" content="At RYD Learning, we're passionate facilitators of curiosity and creators of tomorrow's innovators." />
 
          {/* <!-- Facebook Meta Tags --> */}
-         <meta property="og:url" content="https://educax-next.thetork.com/" />
+         <meta property="og:url" content="https://rydlearning.com/" />
          <meta property="og:type" content="website" />
          <meta property="og:title" content="RYD Learning - A Modern Online Learning and Personalized Education System" />
          <meta property="og:description" content="At RYD Learning, we're not just educators; we're passionate facilitators of curiosity and creators of tomorrow's innovators." />
@@ -15,8 +15,8 @@ const Meta = () => {
 
          {/* <!-- Twitter Meta Tags --> */}
          <meta name="twitter:card" content="summary_large_image" />
-         <meta property="twitter:domain" content="educax-next.thetork.com" />
-         <meta property="twitter:url" content="https://educax-next.thetork.com/" />
+         <meta property="twitter:domain" content="rydlearning.com" />
+         <meta property="twitter:url" content="https://rydlearning.com/" />
          <meta name="twitter:title" content="RYD Learning - A Modern Online Learning and Personalized Education System" />
          <meta name="twitter:description" content="At RYD Learning, we're not just educators; we're passionate facilitators of curiosity and creators of tomorrow's innovators." />
          <meta name="twitter:image" content="/images/og.png" />

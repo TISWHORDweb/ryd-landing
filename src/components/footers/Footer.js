@@ -106,14 +106,14 @@ const Footer = () => {
                     <div className="footer__links-content">
                       <ul className="footer__linklist">
                         <li className="footer__linklist-item">
-                          <p className="m-0">Mon-Sat: 10:00AM - 4.00PM</p>
+                          <p className="m-0">Mon-Fri: 9:00AM - 4.00PM</p>
                         </li>
-                        <li className="footer__linklist-item">
+                        {/* <li className="footer__linklist-item">
                           <p className="m-0">Sunday: 10:00AM - 4.00PM</p>
                         </li>
                         <li className="footer__linklist-item">
                           <p className="m-0">Friday: Close</p>
-                        </li>
+                        </li> */}
                       </ul>
                       <ul className="social mt-4">
                         <li className="social__item">
