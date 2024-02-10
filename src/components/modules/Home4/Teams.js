@@ -71,7 +71,7 @@ const Teams = () => {
 
     return (
         <div>
-            <section className='course course--style4 padding-top padding-bottom bg--full' style={backgroundImage}>
+            <section className='course course--style4 padding-bottom bg--full' style={backgroundImage}>
                 {/* <div className='container'> */}
                     {/* <div className="team__wrapper">
                         <div className="row g-4">
@@ -105,7 +105,7 @@ const Teams = () => {
                          </div>
                     </div> */}
                 {/* </div> */}
-                <div className='container aos-init aos-animate' data-aos='fade-up' data-aos-duration="800" data-aos-delay="100">
+                <div className='container aos-init aos-animate' data-aos='fade-up' data-aos-duration="800" data-aos-delay="100" style={{ marginTop: "-100px"}}>
                     <div className="section-header text-center section-header--dark section-header--max20">
                         <h2 className="style2-h2">Our Most Advanced Courses</h2>
                     </div>

@@ -10,6 +10,8 @@ import React from 'react';
 const PopularCourse = () => {
   const backgroundImage = {
     backgroundImage: "url(/images/bg/home4/1.png)",
+    position: "relative",
+    zIndex: 20
   }
   const breakpoints = {
     576: {
