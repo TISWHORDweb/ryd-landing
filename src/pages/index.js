@@ -12,6 +12,7 @@ import Testimonials from "../components/modules/Home4/Testimonials";
 import Blogs from "../components/modules/Home4/Blogs";
 import Newsletterfour from "../components/modules/newsletter/Newsletterfour";
 import Footerfour from "../components/footers/Footerfour";
+import Chatbot from "../components/modules/chat-bot/Chatbot";
 
 const index4 = () => {
   return (
@@ -29,6 +30,7 @@ const index4 = () => {
       <Testimonials />
       {/* <Blogs /> */}
       <Newsletterfour />
+      {/* <Chatbot /> */}
       <Footerfour />
     </>
   );
