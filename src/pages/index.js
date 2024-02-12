@@ -12,7 +12,7 @@ import Testimonials from "../components/modules/Home4/Testimonials";
 import Blogs from "../components/modules/Home4/Blogs";
 import Newsletterfour from "../components/modules/newsletter/Newsletterfour";
 import Footerfour from "../components/footers/Footerfour";
-import Chatbot from "../components/modules/chat-bot/Chatbot";
+import WhatsappChatWidget from "../components/modules/chat-bot/WhatsppWidget";
 
 const index4 = () => {
   return (
@@ -32,6 +32,7 @@ const index4 = () => {
       <Newsletterfour />
       {/* <Chatbot /> */}
       <Footerfour />
+      <WhatsappChatWidget />
     </>
   );
 };
