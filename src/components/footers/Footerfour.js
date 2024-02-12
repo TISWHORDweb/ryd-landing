@@ -140,15 +140,15 @@ const Footerfour = () => {
                           >
                             <FaInstagram />
                           </Link>
-                        </li>
+                      </li> */}
                         <li className="social__item">
                           <Link
-                            href=""
+                            href="https://www.youtube.com/@RYDLearning"
                             className="social__link social__link--rounded4"
                           >
                             <FaYoutube />
                           </Link>
-                        </li>*/}
+                        </li>
                         <li className="social__item">
                           <Link
                             href="https://twitter.com/rydLearning"

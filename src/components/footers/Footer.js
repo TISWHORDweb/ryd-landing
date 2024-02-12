@@ -139,15 +139,15 @@ const Footer = () => {
                           >
                             <FontAwesomeIcon icon={faInstagram} />
                           </Link>
-                        </li>
+                      </li> */}
                         <li className="social__item">
                           <Link
-                            href=""
+                            href="https://www.youtube.com/@RYDLearning"
                             className="social__link social__link--rounded1"
                           >
                             <FontAwesomeIcon icon={faYoutube} />
                           </Link>
-                        </li> */}
+                        </li>
                         <li className="social__item">
                           <Link
                             href="https://twitter.com/rydLearning"
