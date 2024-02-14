@@ -1,6 +1,6 @@
 import {  FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
-function WhatsappChatWidget() {
+function TelegramWidget() {
     const widgetStyle = {
         position: "fixed",
         right: "10px",
@@ -26,4 +26,4 @@ function WhatsappChatWidget() {
     )
 }
 
-export default WhatsappChatWidget;
+export default TelegramWidget;
