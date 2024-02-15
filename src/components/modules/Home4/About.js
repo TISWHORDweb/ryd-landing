@@ -19,12 +19,16 @@ const About = () => {
                     <div className="about__content" data-aos="fade-left" data-aos-duration="800">
                         <div className="about__content-inner">
                             <h2 className="style2-h2">We inspire curiosity for innovations.</h2>
-                            <p>At RYD Learning, we're not just educators; we're passionate facilitators of curiosity and creators of tomorrow's innovators. We create the right environment for an early start to greatness. With us, you stand to gain:</p>
+                            <p>
+                                We're not only educators; we're enthusiastic guides of curiosity and cultivators of future innovators.
+                                Together with Codecombat, we foster the perfect setting for an early journey toward excellence. With our Standard
+                                Alignments in CSTA & ISTE, you'll gain:
+                            </p>
                             <ul className="about-list">
-                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Certified Training</li>
+                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Enthralling Materials</li>
                                 <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Experienced Teachers</li>
-                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Industry Professionals</li>
-                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Redefined  Online Learning</li>
+                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Redefined Online Learning</li>
+                                <li> <img src="/images/icon/svg/3.svg" alt="list-icon"/> Realtime Project Learning</li>
                             </ul>
                             <Link href="about" className="trk-btn trk-btn--rounded trk-btn--secondary4">Learn More
                                 <span><span><FaArrowRight /></span></span></Link>
