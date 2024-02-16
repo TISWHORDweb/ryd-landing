@@ -12,12 +12,19 @@ const WhoWeAre = () => {
                             <p className="mb-0">who we are</p>
                         </div>
                         <h2 className="about-title">We Passionately create curiosity for tomorrow's innovations.</h2>
-                        <p>At RYD Learning, we're not just educators; we're passionate facilitators of curiosity and creators of tomorrow's innovators. We create the right environment for an early start to greatness. With us, you stand to gain:</p>
+                        <p>
+                            We're not merely educators; we're enthusiastic guides of curiosity and cultivators of future innovators. <br/><br/>
+                            With practical handholding virtual in class tutorship and partnership with Codecombat, we foster the 
+                            perfect setting for an early journey toward excellence. <br/><br />
+                            Our curriculum aligns with CSTA (Computer Science Teachers Association) & 
+                            ISTE (International Society for Technology in Education), you'll gain: 
+
+                        </p>
                         <ul style={{ listStyle: 'disc', fontWeight: 500, marginLeft: '30px'}}>
-                            <li>Certified Training</li>
                             <li>Experienced Teachers</li>
-                            <li>Industry Professionals</li>
-                            <li>Redefined  Online Learning</li>
+                            <li>Enthralling Materials</li>
+                            <li>Redefined Online Learning</li>
+                            <li>Realtime Project Learning</li>
                         </ul>
                     </div>
                     <div className="about__counter">
