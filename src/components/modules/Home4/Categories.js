@@ -28,30 +28,30 @@ const Categories = () => {
     <div>
         <div className='categories categories--style4 padding-top'>
             <div className='container'>
-      <div className="categories__wrapper">
-        <div className="row g-4">
-        {categoryListFour.map((item,index)=>{
-            return(
-            <div key={index} className="col-lg-3 col-sm-6">
-                <div className="categories__item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <div className="categories__item-inner">
-                        <img src={item.icon} alt="category icon"/>
-                        <div className="categories__item-content">
-                            <h5 className="style4">{ item.title }</h5>
-                            <p>{item.body}</p>
-                            <Link href="/courses" className="trk-btn trk-btn--rounded trk-btn--secondary4">{"View More "}
-                                <span><FaArrowRight /></span> 
-                            </Link>
-                        </div>
+                <div className="categories__wrapper">
+                    <div className="row g-4">
+                    {categoryListFour.map((item,index)=>{
+                        return(
+                            <div key={index} className="col-lg-3 col-sm-6">
+                                <div className="categories__item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                                    <div className="categories__item-inner">
+                                        <img src={item.icon} alt="category icon"/>
+                                        <div className="categories__item-content">
+                                            <h5 className="style4">{ item.title }</h5>
+                                            <p>{item.body}</p>
+                                            <Link href="/courses" className="trk-btn trk-btn--rounded trk-btn--secondary4">{"View More "}
+                                                <span><FaArrowRight /></span> 
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        )})}
                     </div>
                 </div>
-            </div>
-
-            )})}
-        </div>
-    </div>
-    </div>
-        </div>
+             </div>
+         </div>
     </div>
   )
 }

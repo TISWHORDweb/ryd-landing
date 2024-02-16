@@ -35,7 +35,7 @@ const PopularCourse = () => {
     <section className='course course--style4 bg--cover' style={backgroundImage}>
       <div className='container aos-init aos-animate' data-aos='fade-up' data-aos-duration="800" data-aos-delay="100">
         <div className="section-header text-center section-header--dark section-header--max20">
-          <h2 className="style2-h2">Our Most Popular Courses</h2>
+          <h2 className="style2-h2">Our Most Basic Courses</h2>
         </div>
         <div className='course__wrapper'>
           <Swiper className='course__slider course__slider--style4'
