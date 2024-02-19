@@ -7,6 +7,8 @@ import PopularCourse from "../components/modules/Home/PopularCourse";
 import MeetOurExpert from "../components/modules/Home/MeetOurExpert";
 import Testimonials from "../components/modules/Home/Testimonials";
 import Newsletter from "../components/modules/newsletter/Newsletter";
+
+
 const About = () => {
   return (
     <>

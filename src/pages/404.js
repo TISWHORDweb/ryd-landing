@@ -5,32 +5,44 @@ import Footer from '../components/footers/Footer'
 import Link from 'next/link';
 
 const Error = () => {
+    const error_area = {
+        
+    };
+    const container = {};
+    const error_content = {}
+
+
     return (
         <>
             <Preloader />
-            <Header />
-            <PageHeader
+            {/* <Header /> */}
+            
+            {/* <PageHeader
                 title="404 Page"
                 subtitle="404 Page"
-                image='images/bg/home1/8.png'/>
-            <section className="error padding-top padding-bottom">
-                <div className="container" data-aos="zoom-in" data-aos-duration="800">
-                    <div className="section-header text-center ">
-                        <h2>OOPS!</h2>
-                        <p className="style2">Page not found</p>
-                    </div>
-                </div>
-                <div className="error__inner" data-aos="fade-up" data-aos-duration="800">
-                    <div className="error__content text-center">
-                        <img className=" mb-4" src={`/images/others/404.png`} alt="404 image" />
-                        <div className="text-center mt-5">
-                            <Link href="/" className="trk-btn trk-btn--rounded trk-btn--secondary1">Go To Home</Link>
+                image='images/bg/home1/8.png'/> 
+            */}
+                <section className="error-area">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="error__content">
+                                    <h1 className="error-area__h1">
+                                        <span className='error-area__h1-four'>4</span>
+                                        <span className='error-area__h1-zero'>0</span>
+                                        <span className='error-area__h1-four'>4</span>
+                                    </h1>
+                                    <h2 className="error-area__title">Page Not Found!</h2>
+                                    <p className="style2">Oops! it could be you or us, there is no page here. It might have <br />been moved or deleted.</p>
+                                    <div className="text-center mt-5">
+                                        <Link href="/" className="trk-btn trk-btn--rounded trk-btn--secondary1">Go Back To Home</Link>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-            </section>
-            <Footer />
+                </section>
+            {/* <Footer /> */}
         </>
     )
 }
