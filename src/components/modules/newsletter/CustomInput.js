@@ -34,7 +34,7 @@ const CustomInput = ({ status, message, onValidated }) => {
             }).then((result) => {
                 if (result.isConfirmed) {
                     // Redirect to another page
-                    window.open('https://example.com/another-page', '_blank')
+                    window.open('https://www.linkedin.com/company/ryd-learning/', '_blank')
                     setEmail("")
                 }
             });
