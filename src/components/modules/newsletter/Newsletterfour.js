@@ -1,11 +1,18 @@
 import { useEffect } from "react";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import CustomInput from "./CustomInput";
 
 const Newsletterfour = () => {
+
+  const postUrl = `https://rydlearning.us18.list-manage.com/subscribe/post?u=${process.env.NEXT_PUBLIC_MAILCHIMP_U}&id=${process.env.NEXT_PUBLIC_MAILCHIMP_ID}`;
+
   useEffect(() => {
     document
       .getElementById("custom-footer")
       ?.classList.add("footer__top--style1");
   }, []);
+
+  
   return (
     <div className="newsletter" style={{ marginTop: '150px'}}>
       <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -19,20 +26,18 @@ const Newsletterfour = () => {
             >
               <h2 className="style2-h2">Get The Latest News On Our Courses</h2>
 
-              <form className="form form-subscribe" action="">
-                <div className="input-group">
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Enter your email..."
+              <MailchimpSubscribe 
+                url={postUrl}
+                render={({ subscribe, status, message }) => (
+                  <CustomInput 
+                    status={status} 
+                    message={message}
+                    onValidated={formData => subscribe(formData)}
                   />
-                  <span className="input-group-btn">
-                    <button className="btn btn-success btn-lg" type="submit">
-                      Subscribe
-                    </button>
-                  </span>
-                </div>
-              </form>
+                )}
+              />
+
+            
             </div>
           </div>
         </div>
