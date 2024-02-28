@@ -28,6 +28,16 @@ const Meta = () => {
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
+        {/* Google tag (gtag.js)  */}
+         {/* <script>
+            window.dataLayer = window.dataLayer || [];
+         </script>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP4G10JVJK"></script>
+         <script>
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+            gtag('config', 'G-RP4G10JVJK');
+         </script> */}
       </Head>
    );
 };
