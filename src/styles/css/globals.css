@@ -111,3 +111,20 @@ a {
   }
 
 }
+
+
+@media screen and (min-width: 800px) {
+  .survey {
+    width: 640px;
+    height: 1367px;
+    border: none;
+    padding: 0;
+    margin: auto;
+  }
+}
+
+.survey {
+  width: 100%;
+  height: 1367px;
+}
+

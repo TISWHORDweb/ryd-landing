@@ -15,7 +15,7 @@ export default function Document() {
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=G-RP4G10JVJK`}
         />
-
+      {/* analytics  */}
       <Script strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
