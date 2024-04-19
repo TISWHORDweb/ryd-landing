@@ -16,9 +16,9 @@ const BannerContent = () => {
                 <div className="banner__content banner__content--style1" data-aos="zoom-in" data-aos-duration="1000">
                     <h1 className="title-font1">Explore the synergy of tech and education in learning. </h1>
                     <div className="btn-group justify-content-center">
-                        <Link href="https://app.rydlearning.com/auth-register" className="trk-btn trk-btn--rounded trk-btn--primary4">{"Get Started "}
+                        <Link href="https://app.rydlearning.com/parent/sign-up" className="trk-btn trk-btn--rounded trk-btn--primary4">{"Get Started "}
                             <span><FaArrowRight /></span> </Link>
-                        <Link href="https://app.rydlearning.com/auth-login" className="trk-btn trk-btn--rounded trk-btn--defult">{"Enroll Now "} <span><FaArrowRight /></span></Link>
+                        <Link href="https://app.rydlearning.com" className="trk-btn trk-btn--rounded trk-btn--defult">{"Enroll Now "} <span><FaArrowRight /></span></Link>
                     </div>
                 </div>
                 <div className="banner-image">
