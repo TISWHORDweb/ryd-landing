@@ -172,7 +172,7 @@ const Header = () => {
               <div className="menu-area">
                 <div className="header-btn">
                   <Link
-                    href="https://app.rydlearning.com/auth-register"
+                    href="https://app.rydlearning.com/parent/sign-up"
                     className="trk-btn trk-btn--rounded trk-btn--primary1"
                   >
                     <span>Sign Up</span>

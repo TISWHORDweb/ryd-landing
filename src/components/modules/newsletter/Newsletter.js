@@ -19,8 +19,8 @@ const Newsletter = ({ title, additionalClass }) => {
               }}
             >
               <h2>{title}</h2>
-              <Link
-                href="https://app.rydlearning.com/auth-register"
+              <Link 
+                href="https://app.rydlearning.com/parent/sign-up"
                 className="trk-btn trk-btn--rounded trk-btn--primary1">
                 Join Us
               </Link>
