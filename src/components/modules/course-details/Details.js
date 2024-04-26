@@ -56,7 +56,7 @@ const Details = ({ props }) => {
                   </div>
 
                   <Link
-                    href="https://app.rydlearning.com/auth-login"
+                    href="https://app.rydlearning.com/parent/sign-in"
                     className="trk-btn trk-btn--border trk-btn--secondary1 d-block"
                   >
                     Get Started
