@@ -27,7 +27,7 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Contact</h5>
-                            <p className="mb-0">+1 (647) 450-5800</p>
+                            <p className="mb-0">+18337371275</p>
                             {/* <p className="mb-0">(603) 555-0123</p> */}
                         </div>
                     </div>

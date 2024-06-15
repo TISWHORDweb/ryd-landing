@@ -64,7 +64,7 @@ const Footer = () => {
                           <div className="footer__about-inner">
                             <img src="/images/footer/3.svg" alt="icon" />
                             <div className="info">
-                              <Link href="tel:+2075550119">+1 (647) 450-5800</Link>
+                              <Link href="tel:+2075550119">+18337371275</Link>
                               <br />
                               <Link href="tel:+7025550122">(702) 555-0122</Link>
                             </div>
