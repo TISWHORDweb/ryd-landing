@@ -56,7 +56,7 @@ const Headerfour = () => {
       }
     };
   }
-  
+
 
   function toggleActive(event) {
     event.preventDefault()
@@ -76,7 +76,7 @@ const Headerfour = () => {
 return (
 
     <>
-    
+
     <header
     className={`header-section brand-4 home4 ${scrollPosition > 100 ? 'header-fixed fadeInUp' : ""} `}
   >
@@ -110,11 +110,11 @@ return (
                     </li>
                      <li>
                       <Link href="/course-details">Courses Details</Link>
-                    </li> 
+                    </li>
                      <li>
                       <Link href="/course-category"
                       >Courses Category</Link>
-                    </li> 
+                    </li>
                   </ul> */}
                 </li>
                 <li>
@@ -127,13 +127,12 @@ return (
               <div className="menu-area">
                 <div className="header-btn">
                   <Link href="https://app.rydlearning.com/parent/sign-up"
-                    className="trk-btn trk-btn--rounded trk-btn--primary4 trk-btn--style2"
-                  >
+                    className="trk-btn trk-btn--rounded trk-btn--primary4 trk-btn--style2">
                     <span>Sign Up</span>
                   </Link>
                 </div>
 
-             
+
                 <div className={activeMenu ? "header-bar d-xl-none home4 active" : "header-bar d-xl-none home4"} onClick={toggleMenu} >
                   <span></span>
                   <span></span>

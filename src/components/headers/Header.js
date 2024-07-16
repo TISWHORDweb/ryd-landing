@@ -85,8 +85,7 @@ const Header = () => {
                     activeMenu
                       ? "menu menu--style1 active"
                       : "menu menu--style1"
-                  }
-                >
+                  }>
                   <li>
                     <Link href="/">Home</Link>
                   </li>
@@ -112,7 +111,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link href="/mentor-details">Mentor Details</Link>
-                      </li> 
+                      </li>
                     </ul> */}
                   </li>
                   {/* <li className="menu-item-has-children">

@@ -32,7 +32,7 @@ const index4 = () => {
       <Newsletterfour />
       {/* <Chatbot /> */}
       <Footerfour />
-      <TelegramWidget />
+      {/*<TelegramWidget />*/}
     </>
   );
 };
