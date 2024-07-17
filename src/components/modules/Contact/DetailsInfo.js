@@ -17,8 +17,8 @@ const DetailsInfo = () => {
                             <span><FontAwesomeIcon icon={faLocationDot} /></span>
                         </div>
                         <div className="contact__item-content">
-                            <h5>Location</h5>
-                            <p className="mb-0">Durham, Greater Toronto Area, Ontario, Canada.</p>
+                            <h5>Registered Locations</h5>
+                            <p className="mb-0">Toronto, Canada, Lagos, Nigeria.</p>
                         </div>
                     </div>
                     <div className="contact__item">
@@ -27,7 +27,7 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Contact</h5>
-                            <p className="mb-0">+18337371275</p>
+                            <p className="mb-0">+1-833-737-1275</p>
                             {/* <p className="mb-0">(603) 555-0123</p> */}
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Email</h5>
-                            <p className="mb-1">support@rydlearning.com</p>
+                            <p className="mb-1">learning@rydlearning.com</p>
                             <p className="mb-0">info@rydlearning.com</p>
                         </div>
                     </div>

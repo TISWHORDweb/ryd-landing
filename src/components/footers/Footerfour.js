@@ -39,7 +39,7 @@ const Footerfour = () => {
                             <img src="/images/footer/1.svg" alt="icon" />
                             <div className="info">
                               <p className="m-0">
-                              Durham, Greater Toronto Area, Ontario, Canada
+                              Toronto, Canada Lagos, Nigeria
                               </p>
                             </div>
                           </div>
@@ -48,11 +48,11 @@ const Footerfour = () => {
                           <div className="footer__about-inner">
                             <img src="/images/footer/2.svg" alt="icon" />
                             <div className="info">
-                              <Link href="mailto:support@thetork.com">
-                              support@rydlearning.com
+                              <Link href="mailto:learning@rydlearning.com">
+                              learning@rydlearning.com
                               </Link>
                               <br />
-                              <Link href="mailto:mail@thetork.com">
+                              <Link href="mailto:learning@rydlearning.com">
                               info@rydlearning.com
                               </Link>
                             </div>
