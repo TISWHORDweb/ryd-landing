@@ -128,7 +128,7 @@ return (
                 <div className="header-btn">
                   <Link href="https://app.rydlearning.com/parent/sign-up"
                     className="trk-btn trk-btn--rounded trk-btn--primary4 trk-btn--style2">
-                    <span>Sign Up</span>
+                    <span>Enroll Now</span>
                   </Link>
                 </div>
 

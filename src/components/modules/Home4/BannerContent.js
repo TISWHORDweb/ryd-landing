@@ -14,11 +14,11 @@ const BannerContent = () => {
             <div className='container'>
             <div className="banner__wrapper">
                 <div className="banner__content banner__content--style1" data-aos="zoom-in" data-aos-duration="1000">
-                    <h1 className="title-font1">Explore the synergy of tech and education in learning. </h1>
+                    <h1 className="title-font1">Let’s Jumpstart Imagination and Innovation as we nurture future tech geniuses.</h1>
                     <div className="btn-group justify-content-center">
-                        <Link href="https://app.rydlearning.com/parent/sign-up" className="trk-btn trk-btn--rounded trk-btn--primary4">{"Get Started "}
+                        <Link href="https://app.rydlearning.com/parent/sign-up" className="trk-btn trk-btn--rounded trk-btn--primary4">{"Enroll Now"}
                             <span><FaArrowRight /></span> </Link>
-                        <Link href="https://app.rydlearning.com" className="trk-btn trk-btn--rounded trk-btn--defult">{"Enroll Now "} <span><FaArrowRight /></span></Link>
+                        <Link href="https://app.rydlearning.com/parent/sign-in" className="trk-btn trk-btn--rounded trk-btn--defult">{"Log In"} <span><FaArrowRight /></span></Link>
                     </div>
                 </div>
                 <div className="banner-image">
