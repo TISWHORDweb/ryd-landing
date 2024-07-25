@@ -18,7 +18,8 @@ const DetailsInfo = () => {
                         </div>
                         <div className="contact__item-content">
                             <h5>Registered Locations</h5>
-                            <p className="mb-0">Toronto, Canada, Lagos, Nigeria.</p>
+                            <p className="mb-0">Toronto, Canada.</p>
+                            <p className="mb-0">Lagos, Nigeria.</p>
                         </div>
                     </div>
                     <div className="contact__item">
@@ -46,9 +47,8 @@ const DetailsInfo = () => {
                             <span><FontAwesomeIcon icon={faClock} /></span>
                         </div>
                         <div className="contact__item-content">
-                            <h5>Hours of operation</h5>
-                            <p className="mb-0">Monday - Friday: 09.00 - 20.00</p>
-                            <p className="mb-0">Sunday & Saturday: 10.30 - 22..30</p>
+                            <h5>Operations</h5>
+                            <p className="mb-0">Global</p>
                         </div>
                     </div>
                 </div>
