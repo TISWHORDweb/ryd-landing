@@ -11,7 +11,7 @@ const ContactForm = () => {
         //add phone to body
         setBody(body + "\nPhone: " + phone+"\nEmail: "+email)
         alert("Thanks for contacting us !, We would get back to you on you request")
-        window.location.href = `mailto:info@rydlearning.com?subject=RYD_Learning_Contact&body=${body}.`
+        window.location.href = `mailto:learning@rydlearning.com?subject=RYD_Learning_Contact&body=${body}.`
         window.location.reload()
     }
 

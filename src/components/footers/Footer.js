@@ -71,7 +71,7 @@ const Footer = () => {
                           </div>
                         </li> */}
                       </ul>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -101,12 +101,12 @@ const Footer = () => {
                 <div className="col-xl-3 col-md-6 col-12">
                   <div className="footer__links">
                     <div className="footer__links-tittle">
-                      <h6>Office Time</h6>
+                      <h6>Operations</h6>
                     </div>
                     <div className="footer__links-content">
                       <ul className="footer__linklist">
                         <li className="footer__linklist-item">
-                          <p className="m-0">Mon-Fri: 9:00AM - 4.00PM</p>
+                          <p className="m-0">Global</p>
                         </li>
                         {/* <li className="footer__linklist-item">
                           <p className="m-0">Sunday: 10:00AM - 4.00PM</p>
@@ -156,7 +156,7 @@ const Footer = () => {
                           >
                             <FontAwesomeIcon icon={faTwitter} />
                           </Link>
-                        </li> 
+                        </li>
                       </ul>
                     </div>
                   </div>
