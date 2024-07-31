@@ -92,6 +92,10 @@ const Footerfour = () => {
                           </li>
                           <li className="footer__linklist-item">
                             {" "}
+                            <Link href="/affiliate">Affiliate</Link>
+                          </li>
+                          <li className="footer__linklist-item">
+                            {" "}
                             <Link href="/contact">Contact Us</Link>
                           </li>
                         </ul>
