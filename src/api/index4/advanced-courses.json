@@ -1,0 +1,38 @@
+[
+    {
+        "thumbnail": "/images/course/home4/7.jpg",
+        "title": "Mobile App Development",
+        "description" : "Introduction to Mobile App Development.\nExplore mobile app development concepts.\nCreate a basic mobile app prototype.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "12-16 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/5.jpg",
+        "title": "App Design and Prototyping",
+        "description" : "Basics of App Design and Prototyping.\nLearn app design principles and tools. \nDesign and prototype a mobile app.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "12-16 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/6.jpg",
+        "title": "Ethical Considerations in Tech",
+        "description" : "Ethical Considerations in Technology.\nExplore ethical issues in the tech industry.\nDevelop understanding of responsible tech use.",
+        "rating": 4.9,
+        "ratingCount": 26,
+        "age": "12-16 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    }
+]

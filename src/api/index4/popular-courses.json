@@ -1,0 +1,38 @@
+[
+    {
+        "thumbnail": "/images/course/home4/1.png",
+        "title": "Introduction to Tech",
+        "description" : "Basics of Computers and Devices.\nExplore computer components and functions.\nLearn device connectivity and interaction.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "7-12 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/4.png",
+        "title": "Digital Creativity",
+        "description" : "Introduction to Digital Art.\nLearn digital art concepts and techniques.\nExperiment with various digital art tools.",
+        "rating": 4.9,
+        "ratingCount": 526,
+        "age": "7-12 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    },
+    {
+        "thumbnail": "/images/course/home4/2.png",
+        "title": "Web & Online Communication",
+        "description" : "Introduction to web browsing concepts.\nExploring online communication tools.\nBasics of blogging and online content creation.",
+        "rating": 4.9,
+        "ratingCount": 26,
+        "age": "7-12 Years",
+        "class": 8,
+        "duration": 8,
+        "avatar": "/images/avatar/3.png",
+        "avatarName": " RYD"
+    }
+]

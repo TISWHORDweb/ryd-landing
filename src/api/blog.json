@@ -1,0 +1,131 @@
+{
+    "posts": [
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/3.png",
+            "title": "Range Input That Looks Consistent Across All  Browser",
+            "category": "Business",
+            "date": "13 March 2024",
+            "author": {
+                "name": "Rassel Hossain",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/4.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Development",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Leslie Alexander",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
+                "role": "https://thetork.com/demos/vue/educax/images/avatar/2.png"
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/5.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Activities",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Ronald Richards",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/3.png",
+            "title": "Range Input That Looks Consistent Across All  Browser",
+            "category": "Business",
+            "date": "13 March 2024",
+            "author": {
+                "name": "Rassel Hossain",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/4.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Development",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Leslie Alexander",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
+                "role": "https://thetork.com/demos/vue/educax/images/avatar/2.png"
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/5.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Activities",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Ronald Richards",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/3.png",
+            "title": "Range Input That Looks Consistent Across All  Browser",
+            "category": "Business",
+            "date": "13 March 2024",
+            "author": {
+                "name": "Rassel Hossain",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/4.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Development",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Leslie Alexander",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
+                "role": "https://thetork.com/demos/vue/educax/images/avatar/2.png"
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/5.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Activities",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Ronald Richards",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
+                "role": ""
+            }
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home2/2.png",
+            "title": "10 Ways Improve Dropdowns in UI & UX Design",
+            "category": "Activities",
+            "date": "21 April 2024",
+            "author": {
+                "name": "Jacob Jones",
+                "avatar": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
+                "role": ""
+            }
+        }
+    ],
+    "learningImg": [
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/community/avator/1.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/community/avator/2.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/community/avator/3.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/community/avator/4.png"
+        },
+        {
+            "img": "https://thetork.com/demos/vue/educax/images/community/avator/5.png"
+        }
+    ]
+}

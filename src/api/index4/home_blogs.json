@@ -1,0 +1,21 @@
+ [
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home4/1.png",
+            "title": "Why Product Thinking is the next big thing in UX Design",
+            "category": "Activities",
+            "date": "December 30, 2024"
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home4/2.png",
+            "title": "Range Input That Looks Consistent Across All Browser",
+            "category": "Development",
+            "date": "April 21, 2024"
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/blog/home4/3.png",
+            "title": "Generating RPG Tethered Assets: Phase of Development",
+            "category": "Art & Design",
+            "date": "April 25, 2024"
+        }
+        
+    ]

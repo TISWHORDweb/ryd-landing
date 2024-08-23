@@ -1,0 +1,158 @@
+{
+
+    "categoryListOne": [
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/1.png",
+            "title": "Data Science"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/2.png",
+            "title": "English"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/3.png",
+            "title": "Finance"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/4.png",
+            "title": "Content Writing"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/5.png",
+            "title": "Development"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/6.png",
+            "title": "Art & Design"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/7.png",
+            "title": "Management"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/icon/home1/8.png",
+            "title": "Business"
+        }
+    ],
+    "categoryListTwo": [
+        {
+            "category": "Language",
+            "img": "https://thetork.com/demos/vue/educax/images/category/home2/1.png"
+        },
+        {
+            "category": "Graphic Design",
+            "img": "https://thetork.com/demos/vue/educax/images/category/home2/2.png"
+        },
+        {
+            "category": "Content Writing",
+            "img": "https://thetork.com/demos/vue/educax/images/category/home2/3.png"
+        },
+        {
+            "category": "Web Design",
+            "img": "https://thetork.com/demos/vue/educax/images/category/home2/4.png"
+        },
+        {
+            "category": "Health & Fitness",
+            "img": "https://thetork.com/demos/vue/educax/images/category/home2/5.png"
+        }
+    ],
+    "categoryListThree": [
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/1.png",
+            "title": "Business"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/2.png",
+            "title": "English"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/3.png",
+            "title": "Finance"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/4.png",
+            "title": "Content Writing"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/5.png",
+            "title": "Development"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home3/6.png",
+            "title": "Art & Design"
+        }
+    ],
+    "categoryListFour": [
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home4/1.png",
+            "title": "LANGUAGES"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home4/2.png",
+            "title": "MUSIC"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home4/3.png",
+            "title": "EDUCATION"
+        },
+        {
+            "icon": "https://thetork.com/demos/vue/educax/images/category/home4/4.png",
+            "title": "TOYS"
+        }
+    ],
+    "teamList": [
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/1.png",
+            "name": "Jenny Wilson",
+            "role": "UI Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/2.png",
+            "name": "Robert Fox",
+            "role": "Product Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/3.png",
+            "name": "Devon Lane",
+            "role": "Web developer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/4.png",
+            "name": "Jerome Bell",
+            "role": "Marketer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/5.png",
+            "name": "Marvin McKi",
+            "role": "UX Designer"
+        },
+        {
+            "avatar": "https://thetork.com/demos/vue/educax/images/team/home1/6.png",
+            "name": "Darrell Bell",
+            "role": "Graphic Designer"
+        }
+    ],
+
+    "counters": [
+        {
+            "label": "Online Courses",
+            "icon": "https://thetork.com/demos/vue/educax/images/counter/home2/1.png",
+            "value": 10
+        },
+        {
+            "label": "Our Instructor",
+            "icon": "https://thetork.com/demos/vue/educax/images/counter/home2/2.png",
+            "value": 15
+        },
+        {
+            "label": "Student Learning",
+            "icon": "https://thetork.com/demos/vue/educax/images/counter/home2/3.png",
+            "value": 25
+        },
+        {
+            "label": "Success Rate",
+            "icon": "https://thetork.com/demos/vue/educax/images/counter/home2/4.png",
+            "value": 99
+        }
+    ]
+}

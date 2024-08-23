@@ -1,0 +1,44 @@
+{
+    "cartList": [
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/1.png",
+            "title": "Web design dourse",
+            "price": 30,
+            "discounted_price": 20,
+            "rating": 4,
+            "rating_count": 32
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/2.png",
+            "title": "Graphic design course",
+            "price": 250,
+            "discounted_price": 200,
+            "rating": 3,
+            "rating_count": 44
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/3.png",
+            "title": "Marketing course",
+            "price": 150,
+            "discounted_price": 100,
+            "rating": 4,
+            "rating_count": 33
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/4.png",
+            "title": "SEO course",
+            "price": 150,
+            "discounted_price": 120,
+            "rating": 5,
+            "rating_count": 12
+        },
+        {
+            "thumbnail": "https://thetork.com/demos/vue/educax/images/course/5.png",
+            "title": "Software development",
+            "price": 220,
+            "discounted_price": 200,
+            "rating": 2,
+            "rating_count": 20
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "thumbnail": "/images/blog/1.png",
+        "tagClass" : "1",
+        "category": "Art & Design",
+        "title": "Why Product Thinking is the next big thing in UX Design",
+        "date": "30 January 2024"
+    },
+    {
+        "thumbnail": "/images/blog/2.png",
+        "tagClass" : "2",
+        "category": "Business",
+        "title": "Range Input That Looks Consistent Across All Browser",
+        "date": "13 March 2024"
+    },
+    {
+        "thumbnail": "/images/blog/3.png",
+        "tagClass" : "3",
+        "category": "Development",
+        "title": "Generating RPG Tethered Assets: Phase of Development",
+        "date": "21 April 2024"
+    }
+]

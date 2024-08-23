@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Brooklyn Simmons",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png",
+        "role": "Parent",
+        "rating": 4,
+        "quote": "I couldn't be happier with Ryd learning platform. It's been a game-changer for my child's education. The engaging content and interactive lessons have not only made learning fun but have also improved my child's understanding of digital expressions.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png"
+    },
+    {
+        "name": "James leo",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
+        "role": "Parent",
+        "rating": 2,
+        "quote": "The platform's user-friendly interface and real-time progress tracking provide me with peace of mind, knowing my child is getting a quality education from the comfort of our home.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png"
+    },
+    {
+        "name": "Adria",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
+        "role": "Student",
+        "rating": 1,
+        "quote": "RYD learning has made my high school experience so much better. The platform's diverse range of courses allows me to explore my interests beyond the standard curriculum",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png"
+    },
+    {
+        "name": "Michael",
+        "role": "Student",
+        "rating": 5,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
+        "quote": "The interactive quizzes and discussions make studying enjoyable, and the flexibility of the platform fits perfectly with my busy schedule. I feel more in control of my learning journey, and the platform has equipped me with valuable skills for both academics and beyond.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png"
+    },
+    {
+        "name": "Dr. Patel",
+        "role": "Educator",
+        "rating": 2,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
+        "quote": "The platform's collaboration features enable seamless interaction, fostering a sense of community in the virtual classroom. The detailed analytics and student feedback help me tailor my teaching methods, ensuring that every student gets the support they need to succeed.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png"
+    }
+]

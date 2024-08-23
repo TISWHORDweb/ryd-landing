@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Brooklyn Simmons",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png",
+        "role": "UI/UX Designer",
+        "rating": 5,
+        "quote": "Our family was traveling via bullet train between cities in japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/1.png"
+    },
+    {
+        "name": "James leo",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png",
+        "role": "Frontend Designer",
+        "rating": 5,
+        "quote": "We the viewers have a quick and easy way to discover information about the company we are entering . IT is also simple to keep track of all the qualification",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/2.png"
+    },
+    {
+        "name": "Robert Be",
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png",
+        "role": "developer",
+        "rating": 5,
+        "quote": "Our family was traveling via bullet train between cities in japan with our luggage - the location for this hotel made that so easy.Agoda price was fantastic.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/3.png"
+    },
+    {
+        "name": "Michael",
+        "role": "Graphic Designer",
+        "rating": 5,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png",
+        "quote": "We the viewers have a quick and easy way to discover information about the company we are entering . IT is also simple to keep track of all the qualification",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/4.png"
+    },
+    {
+        "name": "Robert Be",
+        "role": "developer",
+        "rating": 5,
+        "banner": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png",
+        "quote": "Our family was traveling via bullet train between cities in japan with our luggage - the location for this hotel made that so easy.Agoda price was fantastic.",
+        "thumbnail": "https://thetork.com/demos/vue/educax/images/testimonial/home1/5.png"
+    }
+]
