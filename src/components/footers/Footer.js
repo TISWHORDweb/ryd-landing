@@ -50,12 +50,12 @@ const Footer = () => {
                             <img src="/images/footer/2.svg" alt="icon" />
                             <div className="info">
                               <Link href="mailto:support@thetork.com">
-                              support@rydlearning.com
+                              learning@rydlearning.com
                               </Link>
-                              <br />
-                              <Link href="mailto:mail@thetork.com">
+                             
+                              {/* <Link href="mailto:mail@thetork.com">
                               info@rydlearning.com
-                              </Link>
+                              </Link> */}
                             </div>
                           </div>
                         </li>

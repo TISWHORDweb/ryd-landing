@@ -20,6 +20,7 @@
           }
 
           blockquote {
+            min-height: 300px;
             p {
               @extend %text-regular;
               @include font-size(32px);
@@ -31,6 +32,24 @@
                 @include font-size(24px)
               }
 
+            }
+            h4{
+              color: $white-color;
+              @extend %text-regular;
+              @include font-size(25px);
+              font-family: $title-font1;
+              font-weight: 800;
+              margin-bottom: 0;
+              @include breakpoint(max-lg) {
+                @include font-size(20px)
+              }
+            }
+            small{
+              color: #FED049;
+              @include font-size(15px);
+              @include breakpoint(max-lg) {
+                @include font-size(10px)
+              }
             }
           }
 

@@ -39,7 +39,6 @@ const DetailsInfo = () => {
                         <div className="contact__item-content">
                             <h5>Email</h5>
                             <p className="mb-1">learning@rydlearning.com</p>
-                            <p className="mb-0">info@rydlearning.com</p>
                         </div>
                     </div>
                     <div className="contact__item">

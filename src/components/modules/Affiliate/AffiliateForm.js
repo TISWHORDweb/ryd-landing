@@ -52,7 +52,7 @@ const AffiliateForm = ({HandleAffiliate}) => {
                     </div>
                 </div> */}
 
-                <button type="submit" className="trk-btn trk-btn--rounded trk-btn--secondary1 mt-4"  onClick={()=>HandleAffiliate(code,accessKey)}>Check</button>
+                <button type="submit" className="trk-btn trk-btn--rounded trk-btn--secondary1 mt-4"  onClick={(e)=>HandleAffiliate(e,code,accessKey)}>Check</button>
             </form>
         </div>
 

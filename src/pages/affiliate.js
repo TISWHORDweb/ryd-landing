@@ -12,7 +12,8 @@ import { baseUrl } from "../Network";
 const Contact = () => {
     const [affiliates, setAffiliates] = useState()
 
-    const HandleAffiliate = async (code,key) => {
+    const HandleAffiliate = async (e,code,key) => {
+      e.preventDefault()
         try {
             const response = await axios.get(`${baseUrl}/common/affiliates/${code}/${key}`);
             setAffiliates(response.data.data);
@@ -22,7 +23,7 @@ const Contact = () => {
     }
 
   return (
-    <>
+    <div className="affiliate">
       <Header />
       <PageHeader
         title="Affiliate"
@@ -52,7 +53,7 @@ const Contact = () => {
 
       <Footer />
 
-    </>
+    </div>
   );
 };
 
