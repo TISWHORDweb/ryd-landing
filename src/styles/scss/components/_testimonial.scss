@@ -20,7 +20,7 @@
           }
 
           blockquote {
-            min-height: 300px;
+            min-height: 500px;
             p {
               @extend %text-regular;
               @include font-size(32px);
