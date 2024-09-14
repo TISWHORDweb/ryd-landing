@@ -13,7 +13,7 @@ const Story = () => {
         <FsLightbox
         toggler={toggler}
         sources={[
-          "https://www.youtube.com/watch?v=8MH86CAKqfo",
+          "https://www.youtube.com/watch?v=SRo-0x1poOw",
         ]}
       />
       <section className="story padding-top padding-bottom" style={style}>
