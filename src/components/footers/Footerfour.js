@@ -51,10 +51,10 @@ const Footerfour = () => {
                               <Link href="mailto:learning@rydlearning.com">
                               learning@rydlearning.com
                               </Link>
-                              <br />
+                              {/* <br />
                               <Link href="mailto:learning@rydlearning.com">
                               info@rydlearning.com
-                              </Link>
+                              </Link> */}
                             </div>
                           </div>
                         </li>
