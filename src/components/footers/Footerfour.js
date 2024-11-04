@@ -96,6 +96,14 @@ const Footerfour = () => {
                           </li>
                           <li className="footer__linklist-item">
                             {" "}
+                            <a href="https://partners.rydlearning.com" target="_blank">Partner</a>
+                          </li>
+                             <li className="footer__linklist-item">
+                            {" "}
+                            <a href="https://partners.rydlearning.com/partner/parent/login" target="_blank">Parner Parent</a>
+                          </li>
+                          <li className="footer__linklist-item">
+                            {" "}
                             <Link href="/contact">Contact Us</Link>
                           </li>
                         </ul>
