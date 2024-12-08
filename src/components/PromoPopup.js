@@ -43,7 +43,7 @@ export const PromoPopup = () => {
               <div className="modal-header pink text-white" style={{ 
             backgroundColor: '#AA468E' 
           }}>
-                <h5 className="modal-title text-white">🎉 Free 2-Day Learning Program!</h5>
+                <h5 className="modal-title text-white">🎉 Free 2-Day Coding Program</h5>
                 <button 
                   type="button" 
                   className="btn-close btn-close-white" 
@@ -57,7 +57,7 @@ export const PromoPopup = () => {
                       <span className="fs-2">📚</span>
                     </div>
                     <div className="col-10">
-                      <p className="mb-2"><strong>Limited Time Offer for Parents!</strong></p>
+                      <p className="mb-2"><strong>Registration now open, limited spots available</strong></p>
                       <p className="text-muted">Exciting educational experience for your child - Completely FREE!</p>
                     </div>
                   </div>
@@ -65,6 +65,7 @@ export const PromoPopup = () => {
                   <div className="row">
                     <div className="col-12">
                       <ul className="list-unstyled">
+                        <li className="mb-2">✅ Introduction to Game Development</li>
                         <li className="mb-2">✅ Engaging Learning Experience</li>
                         <li className="mb-2">✅ Interactive Sessions</li>
                         <li>✅ No Cost Enrollment</li>
