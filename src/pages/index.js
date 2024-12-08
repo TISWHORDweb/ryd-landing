@@ -13,11 +13,13 @@ import Blogs from "../components/modules/Home4/Blogs";
 import Newsletterfour from "../components/modules/newsletter/Newsletterfour";
 import Footerfour from "../components/footers/Footerfour";
 import TelegramWidget from "../components/modules/chat-bot/TelegramWidget";
+import { PromoPopup } from "../components/PromoPopup";
 
 const index4 = () => {
   return (
     <>
       <Preloader className={"preloader--style4"} />
+      <PromoPopup />
       <Headerfour />
       <BannerContent />
       <BannerIcon />
