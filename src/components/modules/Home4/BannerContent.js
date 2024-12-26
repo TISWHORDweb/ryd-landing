@@ -19,7 +19,7 @@ const BannerContent = () => {
       className: 'trk-btn trk-btn--rounded trk-btn--default'
     },
     { 
-      role: 'Promo', 
+      role: 'Free 2 Day', 
       href: 'https://promo.rydlearning.com/promo/parent/login',
       className: 'trk-btn trk-btn--rounded trk-btn--default'
     },
