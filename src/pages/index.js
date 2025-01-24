@@ -19,7 +19,7 @@ const index4 = () => {
   return (
     <>
       <Preloader className={"preloader--style4"} />
-      <PromoPopup />
+      {/* <PromoPopup /> */}
       <Headerfour />
       <BannerContent />
       <BannerIcon />
