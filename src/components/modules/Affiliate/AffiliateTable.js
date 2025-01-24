@@ -5,6 +5,7 @@ function AffiliateTable({ affiliates }) {
     const [filteredData, setFilteredData] = useState([])
     const [fetched, setFetched] = useState(false)
     const [totalPaid, setTotalPaid] = useState()
+    const [uniqueChild, setUniqueChild] = useState()
     const [totalUnpaid, setTotalUnpaid] = useState()
     const [selectedCohort, setSelectedCohort] = useState(null);
     const [clicked, setClicked] = useState(false)
@@ -18,9 +19,24 @@ function AffiliateTable({ affiliates }) {
             const paidCohort = affiliates.programs.filter(item => item.isPaid === true)
             const unPaidCohort = affiliates.programs.filter(item => item.isPaid === false)
             setTotalPaid(paidCohort.length)
+            setUniqueChild(countUniqueProgramUsers(affiliates))
             setTotalUnpaid(unPaidCohort.length)
         }
     }, [affiliates])
+
+    const countUniqueProgramUsers = (coupon) => {
+        if (!coupon?.programs || !Array.isArray(coupon.programs)) {
+          return 0;
+        }
+      
+        const uniqueUserIds = new Set(
+          coupon.programs
+            .filter(program => program?.childId)
+            .map(program => program.childId)
+        );
+      
+        return uniqueUserIds.size;
+      };
     
     const handleCohortChange = (cohort) => {
         if (cohort === "all") {
@@ -75,16 +91,19 @@ function AffiliateTable({ affiliates }) {
             <div className="mb-4">
                 <h3>Affiliate Statistic</h3>
             </div>
-            <div className="row align-items-center mb-4">
-                <div
+            <div
                     className="course__topbar-left col-md-4"
                 // data-aos="fade-right"
                 // data-aos-duration="800"
                 >
                     <CohortFilter programs={programs} onCohortChange={handleCohortChange} />
                 </div>
+            <div className="row align-items-center mb-4 mt-3">
                 <div className="col-md-4">
                     <p className='m-0'>Total Paid : <span>{totalPaid ? totalPaid : "0"}</span></p>
+                </div>
+                <div className="col-md-4">
+                    <p className='m-0'>Unique Children : <span>{uniqueChild ? uniqueChild : "0"}</span></p>
                 </div>
                 <div className="col-md-4">
                     <p className='m-0'>Total Unpaid : <span>{totalUnpaid ? totalUnpaid : "0"}</span></p>
