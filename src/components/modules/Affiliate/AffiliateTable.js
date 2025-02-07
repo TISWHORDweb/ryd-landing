@@ -1,156 +1,195 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 function AffiliateTable({ affiliates }) {
-    const [programs, setPrograms] = useState([])
-    const [filteredData, setFilteredData] = useState([])
-    const [fetched, setFetched] = useState(false)
-    const [totalPaid, setTotalPaid] = useState()
-    const [uniqueChild, setUniqueChild] = useState()
-    const [totalUnpaid, setTotalUnpaid] = useState()
-    const [selectedCohort, setSelectedCohort] = useState(null);
-    const [clicked, setClicked] = useState(false)
-    // const [selectedOption, setSelectedOption] = useState(null);
+    const [programs, setPrograms] = useState([]);
+    const [filteredData, setFilteredData] = useState([]);
+    const [fetched, setFetched] = useState(false);
+    const [stats, setStats] = useState({
+        totalPaid: 0,
+        totalChildren: 0,
+        uniqueChildren: 0,
+        totalUnpaid: 0
+    });
+    const [selectedCohort, setSelectedCohort] = useState('');
+    const [selectedFilter, setSelectedFilter] = useState('');
 
     useEffect(() => {
         if (affiliates) {
-            setPrograms(affiliates.programs)
-            setFetched(true)
-            setFilteredData(affiliates.programs)
-            const paidCohort = affiliates.programs.filter(item => item.isPaid === true)
-            const unPaidCohort = affiliates.programs.filter(item => item.isPaid === false)
-            setTotalPaid(paidCohort.length)
-            setUniqueChild(countUniqueProgramUsers(affiliates))
-            setTotalUnpaid(unPaidCohort.length)
-        }
-    }, [affiliates])
+            setPrograms(affiliates.programs);
+            setFilteredData(affiliates.programs);
+            setFetched(true);
 
-    const countUniqueProgramUsers = (coupon) => {
-        if (!coupon?.programs || !Array.isArray(coupon.programs)) {
-          return 0;
         }
-      
-        const uniqueUserIds = new Set(
-          coupon.programs
-            .filter(program => program?.childId)
-            .map(program => program.childId)
-        );
-      
-        return uniqueUserIds.size;
-      };
-    
-    const handleCohortChange = (cohort) => {
-        if (cohort === "all") {
-            setFilteredData(programs)
-        } else if (cohort === "true" || cohort === "false") {
-            const status = cohort === "true" ? true : false
-            setFilteredData(programs.filter(item => item.isPaid === status))
-        } else {
-            console.log("second")
-            setFilteredData(programs.filter(item => item.cohort.title === cohort));
+    }, [affiliates]);
+
+    useEffect(() => {
+        const paidCohort = filteredData.filter(item => item.isPaid);
+        const uniqueChildrenCount = countUniqueProgramUsers(programs);
+
+        setStats({
+            totalPaid: paidCohort.length,
+            totalChildren: filteredData.length,
+            uniqueChildren: uniqueChildrenCount,
+            totalUnpaid: filteredData.length - paidCohort.length
+        });
+    }, [filteredData])
+
+    const countUniqueProgramUsers = (data) => {
+        if (!data || !Array.isArray(data)) {
+            return 0;
         }
-        setClicked(true)
+        return new Set(data.filter(program => program?.childId).map(program => program.childId)).size;
     };
 
-    function CohortFilter({ programs, onCohortChange }) {
-        if (programs) {
-            const cohorts = [...new Set(programs.map(item => item.cohort.title))];
+    const handleCohortChange = (value) => {
+        setSelectedCohort(value);
+        setFilteredData(programs.filter(item => item.cohort.title === value));
+    };
 
-            const handleChange = (selectedOption) => {
-                console.log(selectedOption)
-                onCohortChange(selectedOption);
-                setSelectedCohort(selectedOption)
-            };
-            console.log(cohorts)
-            return (
-                <select name="cars" className="form-select" onChange={(e) => handleChange(e.target.value)}>
-                    <option value="">{selectedCohort ? selectedCohort === "true" ? "Paid" : selectedCohort || selectedCohort === "false" ? "Unpaid" : selectedCohort : "Filter By"}</option>
-                    <option value="all">All</option>
-                    <option value={true}>Paid</option>
-                    <option value={false}>Unpaid</option>
-                    {cohorts.map(cohort => (
-                        <option value={cohort} >{cohort}</option>
-                    ))}
-                </select >
-            );
+    const handleFilterChange = (value) => {
+        setSelectedFilter(value);
+        if (value === "all") {
+            setFilteredData(programs);
+        } else if (value === "true" || value === "false") {
+            const status = value === "true";
+            setFilteredData(programs.filter(item => item.isPaid === status));
         }
-    }
+    };
 
-    const statusCheck = (status) => {
-        if (status) {
-            return (
-                <span className='text-success'>Paid</span>
-            )
-        } else {
-            return (
-                <span className='text-danger'>Unpaid</span>
-            )
-        }
-    }
+    const CohortFilter = () => {
+        if (!programs) return null;
+
+        const cohorts = [...new Set(programs.map(item => item.cohort.title))];
+
+        return (
+            <select
+                className="form-select form-select-lg shadow-sm fw-small"
+                onChange={(e) => handleCohortChange(e.target.value)}
+                value={selectedCohort}
+                style={{ fontSize: "13px" }}
+            >
+                <option value="" className='fw-small text-sm'>Filter By Cohort</option>
+                {cohorts.map(cohort => (
+                    <option key={cohort} value={cohort}>{cohort}</option>
+                ))}
+            </select>
+        );
+    };
+
+    const Filter = () => {
+        if (!programs) return null;
+        return (
+            <select
+                className="form-select form-select-lg shadow-sm fw-small"
+                onChange={(e) => handleFilterChange(e.target.value)}
+                value={selectedFilter}
+                style={{ fontSize: "13px" }}
+            >
+                <option value="" className='fw-small text-sm'>Filter </option>
+                <option value="all">All </option>
+                <option value="true">Paid Only</option>
+                <option value="false">Unpaid Only</option>
+            </select>
+        );
+    };
+
+    const StatusBadge = ({ isPaid }) => (
+        <span className={`badge ${isPaid ? 'bg-success' : 'bg-danger'}`}>
+            {isPaid ? 'Paid' : 'Unpaid'}
+        </span>
+    );
+
     return (
-        <div><div className=" table-responsive">
-            <div className="mb-4">
-                <h3>Affiliate Statistic</h3>
-            </div>
-            <div
-                    className="course__topbar-left col-md-4"
-                // data-aos="fade-right"
-                // data-aos-duration="800"
-                >
-                    <CohortFilter programs={programs} onCohortChange={handleCohortChange} />
-                </div>
-            <div className="row align-items-center mb-4 mt-3">
-                <div className="col-md-4">
-                    <p className='m-0'>Total Paid : <span>{totalPaid ? totalPaid : "0"}</span></p>
-                </div>
-                <div className="col-md-4">
-                    <p className='m-0'>Unique Children : <span>{uniqueChild ? uniqueChild : "0"}</span></p>
-                </div>
-                <div className="col-md-4">
-                    <p className='m-0'>Total Unpaid : <span>{totalUnpaid ? totalUnpaid : "0"}</span></p>
+        <div className="container-fluid py-4">
+            <div className="row mb-4">
+                <div className="col-12">
+                    <h2 className="fw-bold mb-4" style={{ color: "#aa468e" }}>Affiliate Statistics</h2>
                 </div>
             </div>
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Coupon</th>
-                        <th>Parent</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td colSpan="4">
-                            <table className="table table-borderless">
-                                <tbody>
-                                    {fetched ?
-                                        <>
-                                            {filteredData?.map((each, i) => (
-                                                <tr>
-                                                    <td>{each.cohort.title}</td>
-                                                    <td>{affiliates.code}</td>
-                                                    <td>{each.child.parent.lastName + " " + each.child.parent.firstName}</td>
-                                                    <td>{statusCheck(each.isPaid)}</td>
-                                                </tr>
-                                            ))}
-                                        </>
-                                        : <tr>
-                                            <td>-----</td>
-                                            <td>-----</td>
-                                            <td>-----</td>
-                                            <td>-----</td>
-                                        </tr>
-                                    }
 
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            {/* Stats Cards */}
+            <div className="row g-3 mb-4">
+                <div className="col-md-3">
+                    <div className="card h-100 border-0 shadow-sm">
+                        <div className="card-body">
+                            <h6 className="text-muted mb-2">Total Paid</h6>
+                            <h3 className="fw-bold text-success mb-0">{stats.totalPaid}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card h-100 border-0 shadow-sm">
+                        <div className="card-body">
+                            <h6 className="text-muted mb-2">Unique Children</h6>
+                            <h3 className="fw-bold text-primary mb-0">{stats.uniqueChildren}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card h-100 border-0 shadow-sm">
+                        <div className="card-body">
+                            <h6 className="text-muted mb-2">Total Children</h6>
+                            <h3 className="fw-bold text-info mb-0">{stats.totalChildren}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card h-100 border-0 shadow-sm">
+                        <div className="card-body">
+                            <h6 className="text-muted mb-2">Total Unpaid</h6>
+                            <h3 className="fw-bold text-danger mb-0">{stats.totalUnpaid}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Filter Section */}
+            <div className="row mb-4">
+            <div className="col-md-3">
+                    <Filter />
+                </div>
+                <div className="col-md-3">
+                    <CohortFilter />
+                </div>
+            </div>
+
+            {/* Table Section */}
+            <div className="card border-0 shadow-sm">
+                <div className="card-body">
+                    <div className="table-responsive">
+                        <table className="table table-hover align-middle">
+                            <thead className="bg-light">
+                                <tr>
+                                    <th className="border-0">Title</th>
+                                    <th className="border-0">Coupon</th>
+                                    <th className="border-0">Parent</th>
+                                    <th className="border-0">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {fetched && (
+                                    filteredData.map((each, i) => (
+                                        <tr key={i}>
+                                            <td className="fw-medium">{each.cohort.title}</td>
+                                            <td>
+                                                <span className="badge bg-light text-dark">
+                                                    {affiliates.code}
+                                                </span>
+                                            </td>
+                                            <td>{`${each.child.parent.lastName} ${each.child.parent.firstName}`}</td>
+                                            <td>
+                                                <StatusBadge isPaid={each.isPaid} />
+                                            </td>
+                                        </tr>
+                                    ))
+                                )}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-    )
+    );
 }
 
-export default AffiliateTable
+export default AffiliateTable;

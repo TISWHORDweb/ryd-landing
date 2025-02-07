@@ -118,6 +118,9 @@ return (
                   </ul> */}
                 </li>
                 <li>
+                    <Link href="/blog/all">Blog</Link>
+                  </li>
+                <li>
                   <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>

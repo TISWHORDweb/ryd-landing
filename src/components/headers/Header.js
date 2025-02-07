@@ -114,6 +114,9 @@ const Header = () => {
                       </li>
                     </ul> */}
                   </li>
+                  <li>
+                    <Link href="/blog/all">Blog</Link>
+                  </li>
                   {/* <li className="menu-item-has-children">
                     <Link href="" onClick={toggleActive}>
                       Blogs
