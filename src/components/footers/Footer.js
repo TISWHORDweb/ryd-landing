@@ -40,7 +40,7 @@ const Footer = () => {
                             <img src="/images/footer/1.svg" alt="icon" />
                             <div className="info">
                               <p className="m-0">
-                              Durham, Greater Toronto Area, Ontario, Canada
+                              Toronto, Canada Lagos, Nigeria
                               </p>
                             </div>
                           </div>
