@@ -26,13 +26,12 @@ const Blog = () => {
 
   const categories = [
     'All',
-    'Beginner',
-    'Intermediate',
-    'Advanced',
-    'Teaching Tips',
+    'News',
+    'Technology',
+    'Education',
     'Python',
     'Web Development',
-    'Game Development',
+    'Kids & Learning',
   ];
 
 
