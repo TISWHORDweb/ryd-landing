@@ -35,7 +35,7 @@ const BannerContent = () => {
                 <div className='container'>
                     <div className="banner__wrapper">
                         <div className="banner__content banner__content--style1" data-aos="zoom-in" data-aos-duration="1000">
-                            <h1 className="title-font1">Let’s Jumpstart Imagination and Innovation as we nurture future tech geniuses.</h1>
+                            <h1 className="title-font1">The Future is Digital, Let's Prepare Your Child to Lead It.</h1>
                             <div className="btn-group justify-content-center">
                                 <Link href="https://app.rydlearning.com/parent/sign-up" className="trk-btn trk-btn--rounded trk-btn--primary4">{"Enroll Now"}
                                     <span><FaArrowRight /></span> </Link>

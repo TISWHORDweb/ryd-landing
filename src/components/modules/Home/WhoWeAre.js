@@ -11,9 +11,9 @@ const WhoWeAre = () => {
                         <div className="subtitle subtitle--style4">
                             <p className="mb-0">who we are</p>
                         </div>
-                        <h2 className="about-title">We Passionately create curiosity for tomorrow's innovations.</h2>
+                        <h2 className="about-title">We Nurture Young Minds for a Tech Driven Future!</h2>
                         <p>
-                            We're not merely educators; we're enthusiastic guides of curiosity and cultivators of future innovators. <br/><br/>
+                            We don’t just teach technology—we spark curiosity, creativity, and problem-solving skills in children. <br/><br/>
                             With practical handholding virtual in class tutorship and partnership with Codecombat, we foster the 
                             perfect setting for an early journey toward excellence. <br/><br />
                             Our curriculum aligns with CSTA (Computer Science Teachers Association) & 

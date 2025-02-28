@@ -23,7 +23,7 @@ const Footerfour = () => {
                       <img src="/images/logo/4.png" alt="Logo" />
                     </Link>
                     <p className="footer__about-moto">
-                    Let's embark on a learning journey where technology meets education.
+                    Let's embark on a learning journey where education meets technology.
                     </p>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Footerfour = () => {
                             <img src="/images/footer/1.svg" alt="icon" />
                             <div className="info">
                               <p className="m-0">
-                              Toronto, Canada Lagos, Nigeria
+                              Toronto, Canada | Lagos, Nigeria
                               </p>
                             </div>
                           </div>

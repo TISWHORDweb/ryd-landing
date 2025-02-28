@@ -2,14 +2,9 @@ import Link from 'next/link'
 import { FaArrowRight } from 'react-icons/fa'
 const categoryListFour= [
     {
-        "icon": "https://thetork.com/demos/vue/educax/images/category/home4/1.png",
-        "title": "Digital Creativity",
-        "body": "A foundational program introducing young learners and enthusiasts to the exciting world of technology."
-    },
-    {
         "icon": "https://thetork.com/demos/vue/educax/images/category/home4/2.png",
         "title": "Basic Programs",
-        "body": "This program lays the groundwork and ignites curiosity, fosters creativity, and empowers young minds."
+        "body": "Lays a foundation that ignites curiosity and fosters creativity in young minds."
     },
     {
         "icon": "https://thetork.com/demos/vue/educax/images/category/home4/3.png",
@@ -20,6 +15,11 @@ const categoryListFour= [
         "icon": "https://thetork.com/demos/vue/educax/images/category/home4/4.png",
         "title": "Project-Based",
         "body": "Our project-based approach empowers students to apply their knowledge to real-world challenges."
+    },
+    {
+        "icon": "https://thetork.com/demos/vue/educax/images/category/home4/1.png",
+        "title": "Special Programs",
+        "body": "This is Customised specially with your child's prefered interests to foster uniqueness"
     }
 ]
 
