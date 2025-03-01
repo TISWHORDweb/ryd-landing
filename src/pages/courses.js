@@ -3,7 +3,7 @@ import Header from "../components/headers/Header";
 import Footer from "../components/footers/Footer";
 import PageHeader from "../components/modules/Home/PageHeader";
 import Newsletter from "../components/modules/newsletter/Newsletter";
-import CoursesData from "../api/courses.json";
+import CoursesData from "../api/new_courses.json";
 import CourseCard from "../components/partials/CourseCard";
 
 const Courses = () => {

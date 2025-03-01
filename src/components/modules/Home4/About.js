@@ -10,7 +10,7 @@ const About = () => {
                     <div className="about__thumb" data-aos="fade-right" data-aos-duration="800">
                         <div className="about__thumb-inner">
                             <div className="about__thumb-image">
-                                <img src="/images/about/3.png" alt="about-image"/>
+                                <img src="/images/banner/10.png" alt="about-image"/>
                             </div>
                         </div>
                     </div>

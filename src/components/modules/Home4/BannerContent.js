@@ -69,21 +69,21 @@ const BannerContent = () => {
                                 <div className="col-lg-4 col-md-4 col-4">
                                     <div className="banner-image__item" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="banner-image__item-inner ">
-                                            <img src="/images/banner/4.png" alt="banner-image-banner" />
+                                            <img src="/images/banner/7.png" alt="banner-image-banner" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-4">
                                     <div className="banner-image__item" data-aos="fade-up" data-aos-duration="1000">
                                         <div className="banner-image__item-inner banner-image__item-inner--style2">
-                                            <img src="/images/banner/5.png" alt="banner-image-banner" />
+                                            <img src="/images/banner/8.png" alt="banner-image-banner" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-4">
                                     <div className="banner-image__item" data-aos="fade-left" data-aos-duration="1000">
                                         <div className="banner-image__item-inner">
-                                            <img src="/images/banner/6.png" alt="banner-image-banner" />
+                                            <img src="/images/banner/9.png" alt="banner-image-banner" />
                                         </div>
                                     </div>
                                 </div>
