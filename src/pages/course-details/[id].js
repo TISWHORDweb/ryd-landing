@@ -9,7 +9,7 @@ import Instructor from "../../components/modules/course-details/Instructor";
 import RealReviews from "../../components/modules/course-details/RealReviews";
 import PopularCourses from "../../components/modules/course-details/PopularCourse";
 import FsLightbox from "fslightbox-react";
-import CoursesData from "../../api/courses.json";
+import CoursesData from "../../api/new_courses.json";
 import { useRouter } from "next/router";
 
 
