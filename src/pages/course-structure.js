@@ -19,7 +19,7 @@ const ProgramStructure = () => {
             />
             <div className="container py-5">
                 <header className="text-center mb-5 ">
-                    <h2 className="display-6 fw-bold mb-3" style={{ color: primaryColor }}>RYD Learning Program Structure</h2>
+                    <h2 className="display-6 fw-bold mb-3" style={{ color: primaryColor }}>Learning Program Structure</h2>
                     <p className="lead">Structured learning paths tailored to different age groups and skill levels</p>
                 </header>
 
@@ -43,7 +43,7 @@ const ProgramStructure = () => {
                                             <i className="bi bi-layers-fill" style={{ color: primaryColor }}></i>
                                         </div>
                                         <div>
-                                            <strong>12 levels total</strong>
+                                            <strong>12 Levels </strong>
                                             <div className="text-muted small">2 years to complete</div>
                                         </div>
                                     </li>
@@ -93,10 +93,10 @@ const ProgramStructure = () => {
                             </div>
                             <div className="card-header p-4 text-white border-0" style={{ backgroundColor: primaryColor }}>
                                 <div className="d-flex justify-content-between align-items-center mb-2">
-                                    <h3 className="m-0 fw-bold">Advanced Program</h3>
+                                    <h3 className="m-0 fw-bold text-white">Advanced Program</h3>
                                     <span className="badge bg-white text-dark rounded-pill px-3 py-2">Ages 12-16</span>
                                 </div>
-                                <p>Text-based coding teaching programming languages and technical skills</p>
+                                <p className="text-black">Text-based coding teaching programming languages and technical skills</p>
                             </div>
                             <div className="card-body">
                                 <h5 className="fw-bold mb-3">Program Details</h5>
@@ -107,7 +107,7 @@ const ProgramStructure = () => {
                                             <i className="bi bi-layers-fill" style={{ color: primaryColor }}></i>
                                         </div>
                                         <div>
-                                            <strong>12 levels total</strong>
+                                            <strong>12 Levels</strong>
                                             <div className="text-muted small">2 years to complete</div>
                                         </div>
                                     </li>
@@ -136,7 +136,7 @@ const ProgramStructure = () => {
                             <div className="card-footer bg-light p-4 border-0">
                             <Link href="/courses">
                                 <button className="btn btn-lg w-100 text-white" style={{ backgroundColor: primaryColor }}>
-                                <small> Explore Basic Program</small>
+                                <small> Explore Advanced Program</small>
                                 </button>
                                 </Link>
                             </div>
@@ -190,7 +190,7 @@ const ProgramStructure = () => {
                             <div className="card-footer bg-light p-4 border-0">
                             <Link href="/courses">
                                 <button className="btn btn-lg w-100 text-white" style={{ backgroundColor: primaryColor }}>
-                                <small> Explore Basic Program</small>
+                                <small> Explore Special Program</small>
                                 </button>
                                 </Link>
                             </div>
