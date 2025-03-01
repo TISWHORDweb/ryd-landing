@@ -103,7 +103,9 @@ return (
                 </li>
 
                 <li className=''>
-                  <Link href="/courses">Courses</Link>
+                <Link href="/course-structure">
+                      Courses
+                    </Link>
                   {/* <ul className="submenu">
                     <li>
                       <Link href="/courses">Courses</Link>

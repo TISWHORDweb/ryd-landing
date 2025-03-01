@@ -5,6 +5,7 @@ import PageHeader from "../components/modules/Home/PageHeader";
 import Newsletter from "../components/modules/newsletter/Newsletter";
 import CoursesData from "../api/new_courses.json";
 import CourseCard from "../components/partials/CourseCard";
+import HeaderBg from "../components/headers/HeaderBg";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -61,13 +62,7 @@ const Courses = () => {
 
   return (
     <div>
-      <Header />
-      <PageHeader
-        title="Courses"
-        subtitle="Courses"
-        image='../../../images/bg/home1/2.png'
-      />
-      
+      <HeaderBg />
 
       <div className="course course--style1 padding-top padding-bottom">
         <div className="container">
@@ -81,6 +76,8 @@ const Courses = () => {
                 <option value="">Filter By</option>
                 <option value="advanced">Advanced</option>
                 <option value="basic">Basic</option>
+                <option value="project">Project</option>
+                <option value="special">Special</option>
               </select>
             </div>
             <div
@@ -108,6 +105,8 @@ const Courses = () => {
                     </button>
                   </li>
                 ))}
+                <li> <button className="tab-btn">Project</button></li>
+                <li><button className="tab-btn" >Special</button></li>
               </ul>
             </div>
           </div>

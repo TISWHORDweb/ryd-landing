@@ -93,7 +93,7 @@ const Header = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li className="">
-                    <Link href="/courses">
+                  <Link href="/course-structure">
                       Courses
                     </Link>
                     {/* <ul className="submenu">

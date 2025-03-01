@@ -135,7 +135,9 @@ const Headerthree = () => {
                       </Link>
                       <ul className="submenu">
                         <li>
-                          <Link href="/courses">Courses</Link>
+                        <Link href="/course-structure">
+                      Courses
+                    </Link>
                         </li>
                         <li>
                           <Link href="/course-details">Courses Details</Link>
