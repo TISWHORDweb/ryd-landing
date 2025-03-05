@@ -83,7 +83,7 @@ const BannerContent = () => {
                                 <div className="col-lg-4 col-md-4 col-4">
                                     <div className="banner-image__item" data-aos="fade-left" data-aos-duration="1000">
                                         <div className="banner-image__item-inner">
-                                            <img src="/images/banner/9.png" alt="banner-image-banner" />
+                                            <img src="/images/banner/12.png" alt="banner-image-banner" />
                                         </div>
                                     </div>
                                 </div>

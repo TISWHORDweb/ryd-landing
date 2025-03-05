@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 // import testimonials from '../../../api/index4/home-testimonials.json';
 import { baseUrl } from "@/src/Network";
 import axios from "axios";
+import Link from "next/link";
 
 const Testimonials = () => {
   const [thumbswiper, setThumbsSwiper] = useState(null)
@@ -111,6 +112,11 @@ const Testimonials = () => {
           </Swiper> */}
         </div>
       </div>
+      <Link href="/testimonials">
+      <div className="d-flex justify-content-center">
+  <button className="trk-btn trk-btn--rounded trk-btn--primary1">Read More</button>
+</div>
+</Link>
     </section>
 
   );

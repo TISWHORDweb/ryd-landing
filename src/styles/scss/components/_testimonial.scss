@@ -1,6 +1,42 @@
 .testimonial {
   @extend %of-hidden;
+  .pink{
+    color: #AA468E;
+  }
+  
+  .orange {color: #FFC107 !important;
+  }
 
+  .testimonial__card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .testimonial__quote-icon {
+    font-size: 24px;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial__filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial__filters input,
+  .testimonial__filters select {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 0;
+  }
   &--style1 {
     .testimonial {
       &__item {
